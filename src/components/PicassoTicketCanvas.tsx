@@ -26,7 +26,7 @@ export const PicassoTicketCanvas: React.FC<TicketProps> = ({ onRegisterClick }) 
               </span>
             </div>
 
-            <h3 className="font-syne font-black text-3xl sm:text-5xl uppercase tracking-tight text-[#18181B] leading-tight">
+            <h3 className="font-syne font-black text-2xl xs:text-3xl sm:text-4xl lg:text-5xl uppercase tracking-normal sm:tracking-tight text-[#18181B] leading-snug break-words">
               THE SPARK CREATIVES SUMMIT 2025
             </h3>
 

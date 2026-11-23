@@ -55,9 +55,9 @@ export const PicassoManifesto: React.FC<ManifestoProps> = ({ onRegisterClick }) 
 
       {/* Headline & Explanation */}
       <div className="max-w-3xl space-y-3 mb-10">
-        <h3 className="font-syne font-black text-3xl sm:text-5xl text-[#18181B] uppercase tracking-tight leading-[1.05]">
+        <h3 className="font-syne font-black text-2xl xs:text-3xl sm:text-4xl lg:text-5xl text-[#18181B] uppercase tracking-normal sm:tracking-tight leading-snug sm:leading-[1.05] break-words">
           CREATIVITY PAYS REAL MONEY NOW.{' '}
-          <span className="font-serif italic font-normal text-[#C94A29] lowercase">it is not a hobby.</span>
+          <span className="font-serif italic font-normal text-[#C94A29] lowercase tracking-normal">it is not a hobby.</span>
         </h3>
         <p className="font-sans text-base sm:text-lg text-[#18181B]/80 leading-relaxed">
           Young Africans are making music, shooting videos, and designing brands that people across the globe love. The Spark gives you the skills, connections, and seed money to build a real career right here in Ekiti.

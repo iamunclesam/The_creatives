@@ -18,23 +18,20 @@ export const PicassoNavbar: React.FC<NavbarProps> = ({ onRegisterClick, onPartne
   }, []);
 
   return (
-    <header className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-      scrolled ? 'bg-[#FAF6EE]/95 backdrop-blur-md border-b-2 border-[#18181B] py-3 shadow-md' : 'bg-transparent py-5'
+    <header className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 bg-[#FAF6EE]/95 backdrop-blur-md border-b-2 border-[#18181B] ${
+      scrolled ? 'py-2.5 sm:py-3 shadow-md' : 'py-3.5 sm:py-4 shadow-sm'
     }`}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between">
           {/* Logo with Cubist Star and Asymmetric Badge */}
           <a href="#hero" className="flex items-center gap-2.5 group">
-            <div className="w-10 h-10 bg-[#C94A29] border-2 border-[#18181B] flex items-center justify-center text-white shadow-[3px_3px_0px_#18181B] group-hover:rotate-6 transition-transform">
-              <span className="font-syne font-black text-sm">SPK</span>
+            <div className="w-9 h-9 sm:w-10 sm:h-10 bg-[#C94A29] border-2 border-[#18181B] flex items-center justify-center text-white shadow-[2px_2px_0px_#18181B] sm:shadow-[3px_3px_0px_#18181B] group-hover:rotate-6 transition-transform">
+              <span className="font-syne font-black text-xs sm:text-sm">SPK</span>
             </div>
             <div className="flex flex-col">
-              <span className="font-syne font-black text-xl tracking-tight text-[#18181B] uppercase leading-tight">
+              <span className="font-syne font-black text-lg sm:text-xl tracking-tight text-[#18181B] uppercase leading-tight">
                 THE SPARK
               </span>
-              {/* <span className="text-[10px] font-mono tracking-[0.2em] text-[#C94A29] uppercase font-bold">
-                CANVAS // EKITI 2025
-              </span> */}
             </div>
           </a>
 
