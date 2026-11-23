@@ -1,0 +1,92 @@
+import React from 'react';
+import { ArrowRight, Scissors } from 'lucide-react';
+
+interface TicketStubProps {
+  onRegisterClick: () => void;
+}
+
+export const NewspaperTicketStub: React.FC<TicketStubProps> = ({ onRegisterClick }) => {
+  return (
+    <section id="ticket-stub" className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+      {/* Cut line */}
+      <div className="flex items-center gap-3 text-xs font-mono uppercase tracking-widest text-[#1A1815]/60 mb-4 justify-center">
+        <Scissors className="w-4 h-4 text-[#C9381A]" />
+        <span>✂ CUT ALONG THE DOTTED LINE FOR YOUR FREE TICKET ✂</span>
+        <Scissors className="w-4 h-4 text-[#C9381A]" />
+      </div>
+
+      {/* Ticket Pass Box */}
+      <div className="border-4 border-dashed border-[#1A1815] p-6 sm:p-10 bg-[#FFFDF9] shadow-[6px_6px_0px_#1A1815] relative">
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+          <div className="lg:col-span-8 space-y-3">
+            <div className="flex items-center gap-3">
+              <span className="bg-[#C9381A] text-white px-3 py-1 text-xs font-mono font-black uppercase">
+                FREE ADMISSION TICKET
+              </span>
+              <span className="text-xs font-mono font-bold text-[#1A1815]/60">
+                PASS NO: #SPK-2025-EKITI
+              </span>
+            </div>
+
+            <h3 className="font-playfair font-black text-3xl sm:text-5xl uppercase tracking-tight text-[#1A1815] leading-tight">
+              THE SPARK CREATIVES SUMMIT 2025
+            </h3>
+
+            <p className="font-serif text-sm sm:text-base text-[#1A1815]/80 max-w-xl leading-relaxed">
+              This free pass gives you full entry to all workshops, main stage talks, free lunch, portfolio reviews, and the live ₦10,000,000 pitch competition in Ado-Ekiti.
+            </p>
+
+            <div className="grid grid-cols-2 sm:grid-cols-3 gap-4 pt-2 font-mono text-xs border-t border-[#1A1815]/20">
+              <div>
+                <span className="text-[#1A1815]/50 block">DATE:</span>
+                <span className="font-bold text-[#1A1815]">SAT OCT 25, 2025</span>
+              </div>
+              <div>
+                <span className="text-[#1A1815]/50 block">VENUE:</span>
+                <span className="font-bold text-[#1A1815]">CIVIC CENTRE, EKITI</span>
+              </div>
+              <div>
+                <span className="text-[#1A1815]/50 block">COST:</span>
+                <span className="font-bold text-[#C9381A]">100% FREE WITH RSVP</span>
+              </div>
+            </div>
+          </div>
+
+          <div className="lg:col-span-4 lg:border-l-2 lg:border-dashed lg:border-[#1A1815] lg:pl-8 space-y-4 text-center lg:text-left">
+            <div className="space-y-1">
+              <span className="font-mono text-[10px] uppercase text-[#1A1815]/50 tracking-widest block">
+                RESERVE YOUR SPOT
+              </span>
+              <p className="font-playfair font-black text-2xl text-[#1A1815]">
+                FREE ENTRY TICKET
+              </p>
+              <p className="font-mono text-xs text-[#C9381A] font-bold">
+                Free for all young creatives
+              </p>
+            </div>
+
+            <button
+              onClick={onRegisterClick}
+              className="w-full bg-[#C9381A] hover:bg-[#1A1815] text-white py-4 font-mono font-black text-xs uppercase tracking-widest transition-colors border-2 border-[#1A1815] shadow-[4px_4px_0px_#1A1815] flex items-center justify-center gap-2 active:translate-x-0.5 active:translate-y-0.5"
+            >
+              <span>CLAIM FREE TICKET (RSVP)</span>
+              <ArrowRight className="w-4 h-4" />
+            </button>
+
+            {/* Vintage Barcode */}
+            <div className="pt-2 flex flex-col items-center justify-center space-y-1">
+              <div className="h-9 w-full flex items-stretch gap-[2px] opacity-80 px-4">
+                {[2, 1, 3, 1, 2, 4, 1, 3, 2, 1, 4, 2, 1, 3, 1, 2, 4, 1, 3, 2, 1, 3, 1, 4, 2, 1, 3, 2, 1, 4, 1, 2, 3].map((w, i) => (
+                  <div key={i} className="bg-[#1A1815] h-full flex-1" style={{ maxWidth: `${w * 2}px` }} />
+                ))}
+              </div>
+              <span className="font-mono text-[10px] tracking-[0.3em] text-[#1A1815]/60">
+                #SPK-EKITI-2025
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+};
