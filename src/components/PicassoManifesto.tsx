@@ -60,7 +60,7 @@ export const PicassoManifesto: React.FC<ManifestoProps> = ({ onRegisterClick }) 
           <span className="font-serif italic font-normal text-[#C94A29] lowercase tracking-normal">it is not a hobby.</span>
         </h3>
         <p className="font-sans text-base sm:text-lg text-[#18181B]/80 leading-relaxed">
-          Young Africans are making music, shooting videos, and designing brands that people across the globe love. The Spark gives you the skills, connections, and seed money to build a real career right here in Ekiti.
+          Young Africans are making music, shooting videos, and designing brands that people across the globe love. StandOut gives you the skills, connections, and seed money to build a real career right here in Ekiti.
         </p>
       </div>
 
@@ -72,7 +72,7 @@ export const PicassoManifesto: React.FC<ManifestoProps> = ({ onRegisterClick }) 
             Too many young creatives create in isolation in their rooms. They don't know how much to charge, how to protect their work, or where to find serious paying clients.
           </p>
           <p>
-            The Spark was built to fix that. We bring together experienced leaders who will open up their project files, show you their exact process, and help you grow.
+            StandOut was built to fix that. We bring together experienced leaders who will open up their project files, show you their exact process, and help you grow.
           </p>
 
           {/* Picasso Quote Box */}
@@ -82,7 +82,7 @@ export const PicassoManifesto: React.FC<ManifestoProps> = ({ onRegisterClick }) 
               "You don't need to leave your hometown to build a great business. When you have the right skills and the right tools, clients will find you anywhere."
             </blockquote>
             <p className="font-mono text-[10px] text-[#18181B]/60 uppercase pt-1 font-bold">
-              — The Spark Secretariat, Ado-Ekiti
+              — StandOut Secretariat, Ado-Ekiti
             </p>
           </div>
         </div>

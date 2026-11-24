@@ -22,12 +22,12 @@ export const PicassoTicketCanvas: React.FC<TicketProps> = ({ onRegisterClick }) 
                 OFFICIAL SUMMIT PASS
               </span>
               <span className="text-xs font-mono font-bold text-[#18181B]/60">
-                SERIAL: #SPK-2025-EKITI
+                SERIAL: #SO-2025-EKITI
               </span>
             </div>
 
             <h3 className="font-syne font-black text-2xl xs:text-3xl sm:text-4xl lg:text-5xl uppercase tracking-normal sm:tracking-tight text-[#18181B] leading-snug break-words">
-              THE SPARK CREATIVES SUMMIT 2025
+              STANDOUT CREATIVES SUMMIT 2025
             </h3>
 
             <p className="font-sans text-sm sm:text-base text-[#18181B]/80 max-w-xl leading-relaxed">

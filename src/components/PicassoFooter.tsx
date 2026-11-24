@@ -7,7 +7,7 @@ export const PicassoFooter: React.FC = () => {
       <div className="flex flex-col sm:flex-row items-center justify-between gap-6 pb-6 border-b border-[#18181B]/20 font-mono text-xs">
         <div>
           <span className="font-syne font-black text-lg text-[#18181B] uppercase">
-            THE SPARK SUMMIT
+            STANDOUT SUMMIT
           </span>
           <p className="text-[#18181B]/60 mt-0.5">
             Ekiti State Civic & Cultural Centre, Ado-Ekiti, Nigeria.
@@ -28,7 +28,7 @@ export const PicassoFooter: React.FC = () => {
       </div>
 
       <div className="pt-4 flex flex-col sm:flex-row items-center justify-between text-[11px] font-mono text-[#18181B]/50 gap-2">
-        <span>© 2025 THE SPARK CREATIVES SUMMIT • ALL RIGHTS RESERVED</span>
+        <span>© 2025 STANDOUT CREATIVES SUMMIT • ALL RIGHTS RESERVED</span>
         <span>A GATHERING FOR THE NEXT GENERATION OF AFRICAN CREATORS</span>
       </div>
     </footer>

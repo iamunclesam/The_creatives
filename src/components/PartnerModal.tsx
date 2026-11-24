@@ -47,7 +47,7 @@ export const PartnerModal: React.FC<PartnerModalProps> = ({ isOpen, onClose }) =
                 <span>PARTNER & SPONSOR COLLABORATION</span>
               </div>
               <h3 className="font-display font-black text-2xl sm:text-3xl text-white">
-                Partner With The Spark
+                Partner With StandOut
               </h3>
               <p className="text-xs sm:text-sm text-[#94949E]">
                 Connect your brand with 1,500+ top creative talents, innovators, and leaders across Nigeria.

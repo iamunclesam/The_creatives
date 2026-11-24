@@ -1,7 +1,7 @@
-# The Spark Creatives Summit 2025 — Official Landing Page
+# StandOut Creatives Summit 2025 — Official Landing Page
 
-> **"WHERE CREATIVITY MEETS POSSIBILITY."**  
-> A premium, visually immersive, conversion-focused landing page for **The Spark Creatives Summit** in Ekiti State, Nigeria.
+> **"WHERE CREATIVITY MEETS OPPORTUNITY."**  
+> A premium, visually immersive, conversion-focused landing page for **StandOut Creatives Summit** in Ekiti State, Nigeria.
 
 Inspired by the editorial elegance, bold typography, and visual energy of premier African youth summits (such as [Ekiti Youth Summit](https://ekitiyouthsummit.ng/)), crafted with world-class design systems and frontend engineering.
 

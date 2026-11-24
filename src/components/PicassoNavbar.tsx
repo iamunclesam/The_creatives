@@ -26,11 +26,11 @@ export const PicassoNavbar: React.FC<NavbarProps> = ({ onRegisterClick, onPartne
           {/* Logo with Cubist Star and Asymmetric Badge */}
           <a href="#hero" className="flex items-center gap-2.5 group">
             <div className="w-9 h-9 sm:w-10 sm:h-10 bg-[#C94A29] border-2 border-[#18181B] flex items-center justify-center text-white shadow-[2px_2px_0px_#18181B] sm:shadow-[3px_3px_0px_#18181B] group-hover:rotate-6 transition-transform">
-              <span className="font-syne font-black text-xs sm:text-sm">SPK</span>
+              <span className="font-syne font-black text-xs sm:text-sm">SO</span>
             </div>
             <div className="flex flex-col">
               <span className="font-syne font-black text-lg sm:text-xl tracking-tight text-[#18181B] uppercase leading-tight">
-                THE SPARK
+                STANDOUT
               </span>
             </div>
           </a>

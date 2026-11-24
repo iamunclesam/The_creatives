@@ -41,7 +41,7 @@ export const RegistrationModal: React.FC<RegistrationModalProps> = ({
       colors: ['#FF4600', '#FF8A00', '#FFFFFF', '#FF2A2A']
     });
 
-    const ref = `SPK-${Math.floor(100000 + Math.random() * 900000)}`;
+    const ref = `SO-${Math.floor(100000 + Math.random() * 900000)}`;
     setRegistrationRef(ref);
     setIsSubmitted(true);
   };
@@ -221,7 +221,7 @@ export const RegistrationModal: React.FC<RegistrationModalProps> = ({
 
               <div className="flex items-center gap-2 mb-4">
                 <Sparkles className="w-4 h-4 text-[#FF4600]" />
-                <span className="font-display font-bold text-sm text-white">THE SPARK SUMMIT 2025</span>
+                <span className="font-display font-bold text-sm text-white">STANDOUT SUMMIT 2025</span>
               </div>
 
               <div className="space-y-2 border-b border-white/10 pb-4">
