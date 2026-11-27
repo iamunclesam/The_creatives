@@ -47,7 +47,7 @@ export const PartnerModal: React.FC<PartnerModalProps> = ({ isOpen, onClose }) =
                 <span>PARTNER & SPONSOR COLLABORATION</span>
               </div>
               <h3 className="font-display font-black text-2xl sm:text-3xl text-white">
-                Partner With EmergenceX
+                Partner With Emergence<span className="text-[#E02B20] text-[1.25em] font-black inline-block">X</span>
               </h3>
               <p className="text-xs sm:text-sm text-[#94949E]">
                 Connect your brand with 1,500+ top creative talents, innovators, and leaders across Nigeria.

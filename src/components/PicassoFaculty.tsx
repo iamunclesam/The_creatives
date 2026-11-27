@@ -78,7 +78,13 @@ export const PicassoFaculty: React.FC = () => {
                 {member.name}
               </h3>
               <p className="font-mono text-xs text-[#FF4D00] font-black uppercase tracking-wider">
-                {member.role} • {member.company}
+                {member.role} • {member.company.includes("EmergenceX") ? (
+                  <>
+                    Emergence<span className="text-[#E02B20] text-[1.18em] font-black inline-block">X</span> Ecosystem
+                  </>
+                ) : (
+                  member.company
+                )}
               </p>
               <p className="font-sans text-xs text-[#18181B]/80 pt-1 leading-relaxed font-medium">
                 {member.teach}

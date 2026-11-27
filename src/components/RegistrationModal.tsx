@@ -72,7 +72,7 @@ export const RegistrationModal: React.FC<RegistrationModalProps> = ({
                 Reserve Your Spot
               </h3>
               <p className="text-xs sm:text-sm text-[#94949E]">
-                RSVP for the <strong>Dec 12th Tech Workshop Hangout</strong> or reserve your <strong>EmergenceX 2K27</strong> pass in Ado-Ekiti.
+                RSVP for the <strong>Dec 12th Tech Workshop Hangout</strong> or reserve your <strong>Emergence<span className="text-[#E02B20] text-[1.2em] font-black inline-block">X</span> 2K27</strong> pass in Ado-Ekiti.
               </p>
             </div>
 
@@ -90,7 +90,16 @@ export const RegistrationModal: React.FC<RegistrationModalProps> = ({
                   }`}
                 >
                   <p className="text-[10px] font-mono text-[#FF4600] uppercase font-bold">{tier.badge}</p>
-                  <p className="font-display font-bold text-xs text-white mt-1">{tier.name}</p>
+                  <p className="font-display font-bold text-xs text-white mt-1">
+                    {tier.name.includes("EmergenceX") ? (
+                      <>
+                        {tier.name.replace("EmergenceX", "Emergence")}
+                        <span className="text-[#E02B20] text-[1.18em] font-black inline-block">X</span>
+                      </>
+                    ) : (
+                      tier.name
+                    )}
+                  </p>
                 </button>
               ))}
             </div>
@@ -221,7 +230,9 @@ export const RegistrationModal: React.FC<RegistrationModalProps> = ({
 
               <div className="flex items-center gap-2 mb-4">
                 <Sparkles className="w-4 h-4 text-[#FF4600]" />
-                <span className="font-display font-bold text-sm text-white">EMERGENCEX 2K27</span>
+                <span className="font-display font-bold text-sm text-white">
+                  EMERGENCE<span className="text-[#E02B20] text-[1.25em] font-black inline-block ml-0.5">X</span> 2K27
+                </span>
               </div>
 
               <div className="space-y-2 border-b border-white/10 pb-4">

@@ -93,7 +93,7 @@ export const PicassoHero: React.FC<HeroProps> = ({ onRegisterClick }) => {
                 {/* Pop Sticker Bottom */}
                 <div className="absolute bottom-2.5 left-2.5 right-2.5 bg-white border-2 border-[#18181B] p-2 text-center shadow-[3px_3px_0px_#18181B]">
                   <span className="font-syne font-extrabold text-xs text-[#18181B] uppercase block">
-                    EMERGENCEX 2K27
+                    EMERGENCE<span className="text-[#E02B20] text-[1.28em] font-black inline-block ml-0.5">X</span> 2K27
                   </span>
                   <span className="font-mono text-[9px] text-[#FF4D00] font-black uppercase">
                     NEXT UP: DEC 12 HANGOUT

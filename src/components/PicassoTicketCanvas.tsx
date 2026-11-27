@@ -30,7 +30,7 @@ export const PicassoTicketCanvas: React.FC<TicketProps> = ({ onRegisterClick }) 
             </div>
 
             <h3 className="font-syne font-extrabold text-2xl xs:text-3xl sm:text-4xl lg:text-5xl uppercase tracking-tight text-[#18181B] leading-tight break-words">
-              EMERGENCEX 2K27
+              EMERGENCE<span className="text-[#E02B20] text-[1.25em] font-black inline-block ml-0.5">X</span> 2K27
             </h3>
 
             <p className="font-sans text-sm sm:text-base text-[#18181B]/85 max-w-xl leading-relaxed font-medium">
@@ -83,7 +83,7 @@ export const PicassoTicketCanvas: React.FC<TicketProps> = ({ onRegisterClick }) 
                 ))}
               </div>
               <span className="font-mono text-[10px] tracking-[0.25em] text-[#18181B]/70 font-black">
-                #EMERGENCEX-2K27-EKITI
+                #EMERGENCE<span className="text-[#E02B20] font-black">X</span>-2K27-EKITI
               </span>
             </div>
           </div>

@@ -96,7 +96,15 @@ export const PicassoWhyAttend: React.FC<WhyAttendProps> = ({ onRegisterClick }) 
                 </h3>
 
                 <p className="font-sans text-xs sm:text-sm text-[#18181B]/80 mt-2 leading-relaxed font-medium">
-                  {pt.desc}
+                  {pt.desc.includes("EmergenceX") ? (
+                    <>
+                      {pt.desc.split("EmergenceX")[0]}
+                      Emergence<span className="text-[#E02B20] text-[1.2em] font-black inline-block">X</span>
+                      {pt.desc.split("EmergenceX")[1]}
+                    </>
+                  ) : (
+                    pt.desc
+                  )}
                 </p>
               </div>
 

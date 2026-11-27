@@ -37,12 +37,14 @@ export const PicassoNavbar: React.FC<NavbarProps> = ({ onRegisterClick, onPartne
           <div className="flex items-center justify-between">
             {/* Logo */}
             <a href="#hero" className="flex items-center gap-2.5 group">
-              <div className="w-10 h-10 bg-[#FF4D00] border-2 border-[#18181B] flex items-center justify-center text-white shadow-[3px_3px_0px_#18181B] group-hover:rotate-6 transition-transform">
-                <span className="font-syne font-extrabold text-sm tracking-tight">EX</span>
+              <div className="w-10 h-10 bg-white border-2 border-[#18181B] flex items-center justify-center text-[#18181B] shadow-[3px_3px_0px_#18181B] group-hover:rotate-6 transition-transform">
+                <span className="font-syne font-black text-sm tracking-tight">
+                  E<span className="text-[#E02B20] text-lg font-black inline-block">X</span>
+                </span>
               </div>
               <div className="flex flex-col">
                 <span className="font-syne font-extrabold text-xl tracking-tight text-[#18181B] uppercase leading-tight">
-                  EMERGENCEX
+                  EMERGENCE<span className="text-[#E02B20] text-[1.28em] font-black inline-block ml-0.5">X</span>
                 </span>
                 <span className="text-[10px] font-mono tracking-wider text-[#FF4D00] uppercase font-bold">
                   ADO-EKITI 2K27
