@@ -65,7 +65,7 @@ export const PicassoHero: React.FC<HeroProps> = ({ onRegisterClick }) => {
             {/* Perks Tag */}
             <div className="pt-1 flex items-center gap-3 text-xs font-mono text-[#18181B]/70 font-bold">
               <PicassoPalettePatch color="#FF4D00" className="w-14 h-5 shrink-0" />
-              <span>Includes free lunch, creator kit & brand showcase stage opportunity.</span>
+              <span>Free entry • Official creator kit • Stage brand opportunity</span>
             </div>
           </div>
 

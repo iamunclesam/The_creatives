@@ -34,7 +34,7 @@ export const PicassoTicketCanvas: React.FC<TicketProps> = ({ onRegisterClick }) 
             </h3>
 
             <p className="font-sans text-sm sm:text-base text-[#18181B]/85 max-w-xl leading-relaxed font-medium">
-              One full pass unlocks everything: entry to the <strong>Dec 12th Tech Hangout</strong>, priority access to the massive <strong>2K27 Main Summit</strong>, portfolio reviews, free food, and brand spotlight stage access.
+              One full pass unlocks everything: entry to the <strong>Dec 12th Tech Hangout</strong>, priority access to the <strong>2K27 Main Summit</strong>, portfolio reviews, creator toolkits, and brand spotlight stage access.
             </p>
 
             <div className="grid grid-cols-2 sm:grid-cols-3 gap-4 pt-3 font-mono text-xs border-t-2 border-[#18181B]/20">

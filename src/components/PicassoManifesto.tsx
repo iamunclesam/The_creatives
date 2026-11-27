@@ -43,11 +43,11 @@ export const PicassoManifesto: React.FC<ManifestoProps> = ({ onRegisterClick }) 
         <div className="flex items-center gap-3">
           <span className="w-4 h-4 bg-[#FF4D00] border-2 border-[#18181B] rotate-45" />
           <h2 className="font-syne font-black text-2xl sm:text-3xl uppercase tracking-tight text-[#18181B]">
-            THE CREATIVE STRUGGLE IS REAL.
+            WHY WE ARE DOING THIS
           </h2>
         </div>
         <span className="px-3 py-1 bg-[#FFE600] text-[#18181B] border-2 border-[#18181B] font-mono text-xs font-black uppercase shadow-[2px_2px_0px_#18181B] self-start sm:self-auto">
-          NO SUITS • NO LIES
+          THE REALITY
         </span>
       </div>
 

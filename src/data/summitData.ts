@@ -425,54 +425,54 @@ export const partnerCategories: PartnerCategory[] = [
 export const ticketTiers: TicketTier[] = [
   {
     id: "hangout-pass",
-    name: "Dec 12th Tech Hangout Pass",
+    name: "Dec 12th Tech Meetup Pass",
     badge: "LIMITED (80 SEATS)",
-    price: "FREE",
-    priceLabel: "Pre-Event RSVP",
-    description: "Hands-on tech workshop, live coding, project reviews, free food, and networking in preparation for 2K27.",
+    price: "",
+    priceLabel: "Pre-Event Meetup",
+    description: "Hands-on tech workshop, live coding, project reviews, and networking in preparation for 2K27.",
     features: [
-      "Guaranteed seat at Dec 12th Tech Hangout",
-      "Live screen-share builds & coding teardowns",
+      "Guaranteed seat at Dec 12th Tech Meetup",
+      "Live screen-share builds & design teardowns",
       "1-on-1 portfolio review slot with mentors",
-      "Free snacks, drinks & networking session",
-      "Automatic VIP priority for 2K27 Main Passes",
+      "Direct networking with local creators",
+      "Automatic priority for 2K27 Main Passes",
     ],
     isPopular: true,
-    ctaText: "RSVP for Dec 12th Hangout"
+    ctaText: "RSVP for Dec 12th Meetup"
   },
   {
     id: "2k27-creative-pass",
     name: "EmergenceX 2K27 Main Summit",
-    badge: "100% FREE RSVP",
-    price: "FREE",
+    badge: "SUMMIT PASS",
+    price: "",
     priceLabel: "Main 2K27 Summit Pass",
     description: "Full general access to the 1,500+ creative gathering in Ado-Ekiti in year 2K27.",
     features: [
-      "Access to all 4 Craft Labs (Design, Video, Audio, Code)",
+      "Access to all 4 Workshops (Design, Video, Audio, Code)",
       "Main auditorium stages & keynotes",
-      "Eligibility to pitch for ₦10M seed cash",
-      "Official EmergenceX 2K27 badge & creator swag kit",
-      "Full lunch & refreshments included",
+      "Opportunity to introduce your brand on stage",
+      "Official EmergenceX 2K27 creator toolkit",
+      "Networking with attendees and studios",
     ],
     isPopular: false,
-    ctaText: "Claim Free 2K27 Pass"
+    ctaText: "Reserve 2K27 Pass"
   },
   {
     id: "all-access-pass",
-    name: "All-Access (Hangout + 2K27)",
+    name: "All-Access (Meetup + 2K27)",
     badge: "RECOMMENDED",
-    price: "FREE",
-    priceLabel: "Full Creator Accreditation",
+    price: "",
+    priceLabel: "Full Creator Pass",
     description: "Guaranteed entry to BOTH the Dec 12th Tech Workshop and the EmergenceX 2K27 Main Summit.",
     features: [
-      "Entry to Dec 12th Tech Workshop Hangout",
+      "Entry to Dec 12th Tech Workshop Meetup",
       "Priority seat at EmergenceX 2K27 Main Summit",
       "Direct line to speaker mentor network",
-      "Access to asset packs & contract templates",
-      "Stage pitch priority submission",
+      "Access to contract templates & pricing tools",
+      "Stage brand spotlight consideration",
     ],
     isPopular: false,
-    ctaText: "Get All-Access Accreditation"
+    ctaText: "Get All-Access Spot"
   }
 ];
 

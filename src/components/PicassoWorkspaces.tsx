@@ -9,7 +9,7 @@ export const PicassoWorkspaces: React.FC = () => {
       borderColor: "border-[#FF4D00]",
       title: "Graphic Design & Branding",
       lead: "Stop designing ₦5k logos. Learn brand systems international startups pay thousands of dollars for.",
-      image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=600&q=80",
+      image: "https://images.unsplash.com/photo-1581291518857-4e27b48ff24e?auto=format&fit=crop&w=800&q=80",
       skills: ["Brand Systems", "Font & Color Mastery", "Pricing in USD"]
     },
     {
@@ -19,7 +19,7 @@ export const PicassoWorkspaces: React.FC = () => {
       borderColor: "border-[#2563EB]",
       title: "Video Making & Cinema",
       lead: "You don't need an expensive camera. Shoot cinema, music videos, and viral ads on gear you already have.",
-      image: "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?auto=format&fit=crop&w=600&q=80",
+      image: "https://images.unsplash.com/photo-1485846234645-a62644f84728?auto=format&fit=crop&w=800&q=80",
       skills: ["Lighting on a Budget", "Cinematic Color Grade", "Directing Talent"]
     },
     {
@@ -51,11 +51,11 @@ export const PicassoWorkspaces: React.FC = () => {
         <div className="flex items-center gap-3">
           <span className="w-4 h-4 bg-[#2563EB] border-2 border-[#18181B] rotate-12" />
           <h2 className="font-syne font-black text-2xl sm:text-3xl uppercase tracking-tight text-[#18181B]">
-            THE 4 CRAFT LABS
+            THE 4 WORKSHOPS
           </h2>
         </div>
         <span className="px-3 py-1 bg-[#18181B] text-white font-mono text-xs font-black uppercase tracking-wider self-start sm:self-auto shadow-[2px_2px_0px_#FFE600]">
-          PRACTICAL • BRING YOUR LAPTOP
+          HANDS-ON • BRING YOUR LAPTOP
         </span>
       </div>
 

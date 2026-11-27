@@ -19,7 +19,7 @@ export const PreEventHangout: React.FC<PreEventProps> = ({ onRegisterClick }) =>
           <div className="lg:col-span-7 space-y-4">
             <div className="flex flex-wrap items-center gap-2">
               <span className="px-3 py-1 bg-[#FF4D00] text-white border-2 border-[#18181B] font-mono font-black text-xs uppercase tracking-wider shadow-[2px_2px_0px_#18181B] rotate-[-1deg]">
-                ★ NEXT UP: DECEMBER 12TH
+                ★ FRIDAY, DECEMBER 12TH
               </span>
               <span className="px-3 py-1 bg-white text-[#18181B] border-2 border-[#18181B] font-mono font-black text-xs uppercase tracking-wider shadow-[2px_2px_0px_#18181B]">
                 ROAD TO 2K27
@@ -27,31 +27,31 @@ export const PreEventHangout: React.FC<PreEventProps> = ({ onRegisterClick }) =>
             </div>
 
             <h2 className="font-syne font-black text-2xl sm:text-4xl lg:text-[2.6rem] text-[#18181B] uppercase leading-tight">
-              PRE-SUMMIT TECH WORKSHOP & CREATIVE HANGOUT.
+              DEC 12: TECH WORKSHOP & MEETUP.
             </h2>
 
             <p className="font-sans text-sm sm:text-base text-[#18181B]/85 leading-relaxed font-medium max-w-xl">
-              Can't wait for the main 2K27 summit? We're hosting a warm-up session on <strong>Dec 12th</strong> in Ado-Ekiti. A hands-on tech workshop meets a casual hangout. Bring your laptop, teardown real projects, roast portfolios, and connect with your crew early.
+              A practical meetup in Ado-Ekiti before the main 2K27 summit. Bring your laptop, work on live design and code with experienced mentors, get your portfolio reviewed, and connect with people who actually build things.
             </p>
 
             {/* Quick Feature Pills */}
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 pt-2">
               <div className="bg-white border-2 border-[#18181B] p-3 shadow-[2px_2px_0px_#18181B]">
                 <Laptop className="w-4 h-4 text-[#FF4D00] mb-1 stroke-[2.5]" />
-                <p className="font-syne font-black text-xs uppercase text-[#18181B]">Live Code & Build</p>
+                <p className="font-syne font-black text-xs uppercase text-[#18181B]">Live Code & Design</p>
                 <p className="font-sans text-[11px] text-[#18181B]/70">Screen-sharing real client projects</p>
               </div>
 
               <div className="bg-white border-2 border-[#18181B] p-3 shadow-[2px_2px_0px_#18181B]">
                 <Users className="w-4 h-4 text-[#2563EB] mb-1 stroke-[2.5]" />
-                <p className="font-syne font-black text-xs uppercase text-[#18181B]">Portfolio Teardown</p>
-                <p className="font-sans text-[11px] text-[#18181B]/70">Direct 1-on-1 critique for attendees</p>
+                <p className="font-syne font-black text-xs uppercase text-[#18181B]">Portfolio Review</p>
+                <p className="font-sans text-[11px] text-[#18181B]/70">Direct feedback on what to improve</p>
               </div>
 
               <div className="bg-white border-2 border-[#18181B] p-3 shadow-[2px_2px_0px_#18181B]">
-                <Coffee className="w-4 h-4 text-[#10B981] mb-1 stroke-[2.5]" />
-                <p className="font-syne font-black text-xs uppercase text-[#18181B]">Vibes & Free Chow</p>
-                <p className="font-sans text-[11px] text-[#18181B]/70">Intimate room, good music & food</p>
+                <Sparkles className="w-4 h-4 text-[#10B981] mb-1 stroke-[2.5]" />
+                <p className="font-syne font-black text-xs uppercase text-[#18181B]">Good Connections</p>
+                <p className="font-sans text-[11px] text-[#18181B]/70">Meet designers, coders & editors</p>
               </div>
             </div>
           </div>
@@ -93,3 +93,4 @@ export const PreEventHangout: React.FC<PreEventProps> = ({ onRegisterClick }) =>
     </section>
   );
 };
+

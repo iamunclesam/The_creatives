@@ -89,8 +89,8 @@ export const RegistrationModal: React.FC<RegistrationModalProps> = ({
                       : 'border-white/10 bg-white/[0.02] hover:bg-white/5'
                   }`}
                 >
-                  <p className="text-[11px] font-mono text-[#FF4600] uppercase font-bold">{tier.price}</p>
-                  <p className="font-display font-bold text-xs text-white mt-0.5">{tier.name}</p>
+                  <p className="text-[10px] font-mono text-[#FF4600] uppercase font-bold">{tier.badge}</p>
+                  <p className="font-display font-bold text-xs text-white mt-1">{tier.name}</p>
                 </button>
               ))}
             </div>
@@ -187,7 +187,7 @@ export const RegistrationModal: React.FC<RegistrationModalProps> = ({
                   type="submit"
                   className="w-full bg-[#FF4600] hover:bg-[#E03D00] text-white py-4 rounded-full font-display font-bold text-xs uppercase tracking-wider flex items-center justify-center gap-2 shadow-xl shadow-[#FF4600]/30 transition-all hover:scale-[1.01]"
                 >
-                  <span>CONFIRM RESERVATION ({currentTier.price})</span>
+                  <span>CONFIRM RESERVATION</span>
                   <ArrowRight className="w-4 h-4" />
                 </button>
               </div>

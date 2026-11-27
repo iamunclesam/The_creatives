@@ -47,11 +47,11 @@ export const PicassoFaculty: React.FC = () => {
         <div className="flex items-center gap-3">
           <span className="w-4 h-4 bg-[#FF4D00] border-2 border-[#18181B] rotate-12" />
           <h2 className="font-syne font-black text-2xl sm:text-3xl uppercase tracking-tight text-[#18181B]">
-            PRACTITIONERS, NOT INFLUENCERS
+            PEOPLE LEADING THE WORKSHOPS
           </h2>
         </div>
         <span className="px-3 py-1 bg-[#2563EB] text-white font-mono text-xs font-black uppercase tracking-wider self-start sm:self-auto shadow-[2px_2px_0px_#18181B]">
-          OPEN PROJECT FILES • NO FLUFF
+          WORKING CREATIVES
         </span>
       </div>
 

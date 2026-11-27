@@ -50,9 +50,9 @@ export const PicassoWhyAttend: React.FC<WhyAttendProps> = ({ onRegisterClick }) 
     {
       num: "06",
       badgeColor: "bg-[#FF4D00] text-white",
-      title: "Free Lunch & Delegate Swag",
-      desc: "Good food, drinks, and an official EmergenceX creator kit on the house. Nobody does creative work on an empty stomach.",
-      tag: "ON THE HOUSE",
+      title: "Creator Kit & Templates",
+      desc: "Take home ready-to-use client contract templates, pricing calculators, invoice scripts, and official EmergenceX merch.",
+      tag: "TAKE-HOME VALUE",
       icon: Coffee
     }
   ];
@@ -64,11 +64,11 @@ export const PicassoWhyAttend: React.FC<WhyAttendProps> = ({ onRegisterClick }) 
         <div className="flex items-center gap-3">
           <span className="w-4 h-4 bg-[#FFE600] border-2 border-[#18181B] rotate-45" />
           <h2 className="font-syne font-black text-2xl sm:text-3xl uppercase tracking-tight text-[#18181B]">
-            WHAT YOU ACTUALLY GET
+            WHAT YOU GET BY ATTENDING
           </h2>
         </div>
         <span className="px-3 py-1 bg-[#FF4D00] text-white font-mono text-xs font-black uppercase tracking-wider self-start sm:self-auto shadow-[2px_2px_0px_#18181B]">
-          6 CONCRETE ADVANTAGES
+          6 REASONS TO COME
         </span>
       </div>
 
@@ -115,7 +115,7 @@ export const PicassoWhyAttend: React.FC<WhyAttendProps> = ({ onRegisterClick }) 
             ZERO HIDDEN FEES • ZERO UPSALE
           </span>
           <h4 className="font-syne font-black text-xl text-[#18181B] uppercase">
-            EVERY TICKET GIVES YOU 100% ACCESS TO ALL LABS & FOOD.
+            EVERY TICKET GIVES YOU 100% ACCESS TO ALL SESSIONS & STAGES.
           </h4>
         </div>
 
