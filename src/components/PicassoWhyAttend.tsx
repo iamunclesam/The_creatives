@@ -51,7 +51,7 @@ export const PicassoWhyAttend: React.FC<WhyAttendProps> = ({ onRegisterClick }) 
       num: "06",
       badgeColor: "bg-[#FF4D00] text-white",
       title: "Free Lunch & Delegate Swag",
-      desc: "Good food, drinks, and an official StandOut creator kit on the house. Nobody does creative work on an empty stomach.",
+      desc: "Good food, drinks, and an official EmergenceX creator kit on the house. Nobody does creative work on an empty stomach.",
       tag: "ON THE HOUSE",
       icon: Coffee
     }

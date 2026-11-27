@@ -1,10 +1,10 @@
 import { EventConfig, Speaker, ExperienceCardItem, ScheduleItem, WhyAttendItem, CommunityShowcaseItem, PartnerCategory, TicketTier } from '../types';
 
 export const eventConfig: EventConfig = {
-  name: "StandOut Creatives Summit",
-  tagline: "Where Creativity Meets Possibility",
-  heroHeadline: "WHERE CREATIVITY MEETS POSSIBILITY.",
-  heroSubheadline: "One gathering. A thousand possibilities. Bringing together the next generation of creatives, innovators and industry leaders to shape the future of the creative economy.",
+  name: "EmergenceX",
+  tagline: "Where African Creatives Build & Earn",
+  heroHeadline: "STOP WORKING FOR EXPOSURE. EMERGE.",
+  heroSubheadline: "Bringing together the next generation of creatives, innovators and industry leaders to turn craft into sustainable careers.",
   date: "2025-10-25",
   dateFormatted: "Saturday, 25 October 2025",
   time: "9:00 AM – 6:00 PM WAT",
@@ -14,17 +14,17 @@ export const eventConfig: EventConfig = {
   country: "Nigeria",
   expectedAttendance: "1,500 – 2,000 Creatives",
   // If you have an external ticketing link like Eventbrite or Paystack, put it here:
-  // e.g. "https://eventbrite.com/e/standout-summit-2025"
+  // e.g. "https://eventbrite.com/e/emergencex-2025"
   registrationUrl: "#register", 
   socialLinks: {
-    instagram: "https://instagram.com/standoutsummit",
-    twitter: "https://x.com/standoutsummit",
-    linkedin: "https://linkedin.com/company/standout-creatives-summit",
-    tiktok: "https://tiktok.com/@standoutsummit",
-    youtube: "https://youtube.com/@standoutsummit",
+    instagram: "https://instagram.com/emergencex",
+    twitter: "https://x.com/emergencex",
+    linkedin: "https://linkedin.com/company/emergencex",
+    tiktok: "https://tiktok.com/@emergencex",
+    youtube: "https://youtube.com/@emergencex",
   },
   contact: {
-    email: "hello@standoutsummit.ng",
+    email: "hello@emergencex.ng",
     phone: "+234 (0) 803 123 4567",
     address: "Civic Centre Boulevard, Ado-Ekiti, Ekiti State, Nigeria",
   }
@@ -317,7 +317,7 @@ export const whyAttendPoints: WhyAttendItem[] = [
   {
     number: "06",
     title: "Compete for ₦10M+ in Pitch Grants",
-    description: "Submit your creative project or digital product for the StandOut Grant Showcase to win catalytic non-dilutive capital and incubation.",
+    description: "Submit your creative project or digital product for the EmergenceX Grant Showcase to win catalytic non-dilutive capital and incubation.",
     highlight: "Real funding on the main stage.",
     iconName: "Trophy"
   }
@@ -355,7 +355,7 @@ export const communityShowcaseItems: CommunityShowcaseItem[] = [
     id: "art-4",
     name: "Segun Arinze",
     discipline: "Sound Engineer & Beat Architect",
-    quote: "Sound isn't just entertainment; it's emotional engineering. At StandOut, we connect the beats to real commerce.",
+    quote: "Sound isn't just entertainment; it's emotional engineering. At EmergenceX, we connect the beats to real commerce.",
     image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=900&q=80",
     tag: "Sound & Music",
     projectTitle: "Harmonic Frequencies of West Africa"
@@ -434,7 +434,7 @@ export const ticketTiers: TicketTier[] = [
       "Access to Main Auditorium Keynotes",
       "Access to Open Creative Showcases & VR Dome",
       "Access to Afternoon Tech Sandbox Demos",
-      "Official StandOut Creatives Digital Badge & Swag Bag",
+      "Official EmergenceX Digital Badge & Swag Bag",
       "Access to Festival Food Court & Sunset Music Session",
     ],
     isPopular: false,
@@ -480,7 +480,7 @@ export const ticketTiers: TicketTier[] = [
 
 export const faqList = [
   {
-    question: "Where exactly is StandOut Creatives Summit taking place?",
+    question: "Where exactly is EmergenceX taking place?",
     answer: "The summit is hosted at the prestigious Ekiti State Civic & Cultural Centre in Ado-Ekiti, Ekiti State, Nigeria. It features a state-of-the-art auditorium, multiple breakout studios, an outdoor amphitheatre, and an exhibition atrium."
   },
   {

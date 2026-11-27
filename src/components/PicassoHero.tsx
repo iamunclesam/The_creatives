@@ -36,9 +36,9 @@ export const PicassoHero: React.FC<HeroProps> = ({ onRegisterClick }) => {
             </div>
 
             {/* Main Punchy Headline */}
-            <h1 className="font-syne font-black text-3xl xs:text-4xl sm:text-5xl md:text-6xl lg:text-[4.25rem] text-[#18181B] tracking-tight uppercase leading-[1.05] sm:leading-[0.98] break-words">
+            <h1 className="font-syne font-extrabold text-3xl xs:text-4xl sm:text-5xl md:text-6xl lg:text-[4.25rem] text-[#18181B] tracking-tight uppercase leading-[1.05] sm:leading-[0.98] break-words">
               STOP WORKING FOR "EXPOSURE". <br className="hidden sm:inline" />
-              <span className="font-serif italic font-normal text-[#FF4D00] lowercase tracking-normal">stand</span> OUT.
+              <span className="font-serif italic font-normal text-[#FF4D00] lowercase tracking-normal">time to</span> EMERGE.
             </h1>
 
             {/* Ultra-Humanized, Short Pain-Point Copy */}
@@ -92,11 +92,11 @@ export const PicassoHero: React.FC<HeroProps> = ({ onRegisterClick }) => {
 
                 {/* Pop Sticker Bottom */}
                 <div className="absolute bottom-2.5 left-2.5 right-2.5 bg-white border-2 border-[#18181B] p-2 text-center shadow-[3px_3px_0px_#18181B]">
-                  <span className="font-syne font-black text-xs text-[#18181B] uppercase block">
-                    1,500+ CREATIVES OUTSIDE
+                  <span className="font-syne font-extrabold text-xs text-[#18181B] uppercase block">
+                    EMERGENCEX 2025
                   </span>
                   <span className="font-mono text-[9px] text-[#FF4D00] font-black uppercase">
-                    OCTOBER 25 • NO SUITS ALLOWED
+                    1,500+ CREATIVES • OCT 25
                   </span>
                 </div>
               </div>

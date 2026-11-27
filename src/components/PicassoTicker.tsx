@@ -2,13 +2,13 @@ import React from 'react';
 
 export const PicassoTicker: React.FC = () => {
   const items = [
+    "EMERGENCEX 2025",
     "TIRED OF BEING OWED?",
     "LEARN TO CHARGE IN DOLLARS",
     "NO BORING POWERPOINT SLIDES",
     "REAL PORTFOLIO CRITIQUES",
     "₦10,000,000 CASH PITCH",
     "FREE FOOD & MERCH",
-    "STOP UNDERCHARGING",
     "OCTOBER 25 • ADO-EKITI",
   ];
 
@@ -27,3 +27,4 @@ export const PicassoTicker: React.FC = () => {
     </div>
   );
 };
+

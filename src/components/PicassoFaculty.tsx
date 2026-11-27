@@ -34,7 +34,7 @@ export const PicassoFaculty: React.FC = () => {
       badgeColor: "bg-[#18181B] text-white",
       name: "Babatunde Alabi",
       role: "Startup Investor",
-      company: "StandOut Capital",
+      company: "EmergenceX Capital",
       teach: "Manages the ₦10M seed grant fund and shows you how to pitch creative ventures that get backed.",
       image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=800&q=80",
     }

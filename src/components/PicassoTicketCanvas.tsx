@@ -25,12 +25,12 @@ export const PicassoTicketCanvas: React.FC<TicketProps> = ({ onRegisterClick }) 
                 100% FREE ADMISSION
               </span>
               <span className="text-xs font-mono font-bold text-[#18181B]/60">
-                #SO-2025-EKITI
+                #EX-2025-EKITI
               </span>
             </div>
 
-            <h3 className="font-syne font-black text-2xl xs:text-3xl sm:text-4xl lg:text-5xl uppercase tracking-tight text-[#18181B] leading-tight break-words">
-              STANDOUT CREATIVES SUMMIT 2025
+            <h3 className="font-syne font-extrabold text-2xl xs:text-3xl sm:text-4xl lg:text-5xl uppercase tracking-tight text-[#18181B] leading-tight break-words">
+              EMERGENCEX 2025
             </h3>
 
             <p className="font-sans text-sm sm:text-base text-[#18181B]/85 max-w-xl leading-relaxed font-medium">
@@ -83,7 +83,7 @@ export const PicassoTicketCanvas: React.FC<TicketProps> = ({ onRegisterClick }) 
                 ))}
               </div>
               <span className="font-mono text-[10px] tracking-[0.25em] text-[#18181B]/70 font-black">
-                #STANDOUT-EKITI-2025
+                #EMERGENCEX-EKITI-2025
               </span>
             </div>
           </div>
