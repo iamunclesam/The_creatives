@@ -1,7 +1,6 @@
 import React from 'react';
-import { ArrowRight, Sparkles } from 'lucide-react';
+import { ArrowRight, Sparkles, AlertCircle } from 'lucide-react';
 import { PicassoAbstractFace, PicassoGeometricStar, PicassoPalettePatch } from './PicassoArt';
-import { eventConfig } from '../data/summitData';
 
 interface HeroProps {
   onRegisterClick: () => void;
@@ -9,84 +8,95 @@ interface HeroProps {
 
 export const PicassoHero: React.FC<HeroProps> = ({ onRegisterClick }) => {
   return (
-    <section id="hero" className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-20 sm:pt-24 lg:pt-28 pb-10 sm:pb-16 relative">
-      {/* Main Cubist Canvas Hero Frame */}
-      <div className="border-2 sm:border-[3px] border-[#18181B] bg-white p-5 sm:p-8 lg:p-12 shadow-[5px_5px_0px_#18181B] sm:shadow-[8px_8px_0px_#18181B] relative overflow-hidden">
+    <section id="hero" className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-24 sm:pt-28 pb-8 relative">
+      {/* Main Cubist Canvas Frame with Electric Pop Border & Shadows */}
+      <div className="border-[3px] border-[#18181B] bg-white p-5 sm:p-8 lg:p-12 shadow-[7px_7px_0px_#18181B] sm:shadow-[10px_10px_0px_#18181B] relative overflow-hidden">
         
-        {/* Abstract Cubist Geometry Watermarks in Background */}
-        <div className="absolute top-0 right-0 w-52 sm:w-80 h-52 sm:h-80 bg-[#D97724]/10 rounded-bl-full pointer-events-none -z-0" />
-        <div className="absolute -bottom-10 -left-10 w-44 sm:w-64 h-44 sm:h-64 bg-[#2563EB]/10 rounded-tr-full pointer-events-none -z-0" />
-        <div className="absolute top-8 right-8 hidden lg:block opacity-70">
-          <PicassoGeometricStar size={44} />
+        {/* Abstract Cubist Geometry Watermarks with Vibrant Fills */}
+        <div className="absolute top-0 right-0 w-64 sm:w-96 h-64 sm:h-96 bg-[#FFE600]/30 rounded-bl-full pointer-events-none -z-0" />
+        <div className="absolute -bottom-10 -left-10 w-48 sm:w-72 h-48 sm:h-72 bg-[#2563EB]/15 rounded-tr-full pointer-events-none -z-0" />
+        <div className="absolute top-6 right-6 hidden lg:block opacity-90 rotate-12">
+          <PicassoGeometricStar size={52} />
         </div>
 
         {/* Content & Visual Grid */}
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-10 items-center relative z-10">
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center relative z-10">
           
-          {/* Left Column: Bold Avant-Garde Typography & Plain English */}
+          {/* Left Column: Bold Pop Typography & Direct Pain-Point Callout */}
           <div className="lg:col-span-7 space-y-4 sm:space-y-6">
-            <div className="inline-flex items-center gap-2 px-3 py-1 bg-[#2563EB] text-white border-2 border-[#18181B] shadow-[2px_2px_0px_#18181B] font-mono text-[10px] sm:text-[11px] font-bold uppercase tracking-wider">
-              <span>ADO-EKITI • OCTOBER 25</span>
-            </div>
-
-            <h1 className="font-syne font-black text-3xl xs:text-4xl sm:text-5xl md:text-6xl lg:text-7xl text-[#18181B] tracking-normal sm:tracking-tight uppercase leading-[1.08] sm:leading-[1.0] lg:leading-[0.96] break-words">
-              MAKE GOOD WORK. <br className="hidden sm:inline" />
-              <span className="font-serif italic font-normal text-[#C94A29] lowercase tracking-normal">stand</span> OUT.
-            </h1>
-
-            <p className="font-sans text-sm sm:text-base lg:text-lg text-[#18181B]/80 max-w-lg leading-relaxed">
-              A one-day meetup in Ado-Ekiti for designers, videographers, coders, and music makers. No boring slides. Just practical craft and money talk.
-            </p>
-
-            {/* Action Buttons */}
-            <div className="pt-2 flex flex-col sm:flex-row items-stretch sm:items-center gap-3.5 sm:gap-4">
-              <button
-                onClick={onRegisterClick}
-                className="group inline-flex items-center justify-center gap-3 bg-[#C94A29] hover:bg-[#18181B] text-white px-6 sm:px-8 py-3.5 sm:py-4 font-mono font-bold sm:font-black text-xs uppercase tracking-wider sm:tracking-widest transition-all border-2 border-[#18181B] shadow-[3px_3px_0px_#18181B] sm:shadow-[4px_4px_0px_#18181B] active:translate-x-1 active:translate-y-1 w-full sm:w-auto"
-              >
-                <span>GET YOUR FREE SPOT</span>
-                <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
-              </button>
-
-              <span className="text-[11px] sm:text-xs font-mono text-[#18181B]/70 font-bold text-center sm:text-left py-1">
-                CIVIC CENTRE, ADO-EKITI
+            
+            {/* Pop Badges */}
+            <div className="flex flex-wrap items-center gap-2">
+              <span className="inline-flex items-center gap-1.5 px-3 py-1 bg-[#18181B] text-white border-2 border-[#18181B] font-mono text-[10px] sm:text-[11px] font-black uppercase tracking-wider shadow-[2px_2px_0px_#FF4D00]">
+                <span>ADO-EKITI • OCTOBER 25</span>
+              </span>
+              <span className="inline-flex items-center gap-1 px-2.5 py-1 bg-[#FFE600] text-[#18181B] border-2 border-[#18181B] font-mono text-[10px] sm:text-[11px] font-black uppercase tracking-wider shadow-[2px_2px_0px_#18181B] rotate-[-1deg]">
+                <span>NO BORING SLIDES</span>
               </span>
             </div>
 
-            {/* Picasso Signature Tag */}
-            <div className="pt-1 flex items-center gap-3 text-[11px] sm:text-xs font-mono text-[#18181B]/60">
-              <PicassoPalettePatch color="#F59E0B" className="w-12 sm:w-16 h-5 sm:h-6 shrink-0" />
-              <span>Free entry • Free lunch • ₦10M pitch fund</span>
+            {/* Main Punchy Headline */}
+            <h1 className="font-syne font-black text-3xl xs:text-4xl sm:text-5xl md:text-6xl lg:text-[4.25rem] text-[#18181B] tracking-tight uppercase leading-[1.05] sm:leading-[0.98] break-words">
+              STOP WORKING FOR "EXPOSURE". <br className="hidden sm:inline" />
+              <span className="font-serif italic font-normal text-[#FF4D00] lowercase tracking-normal">stand</span> OUT.
+            </h1>
+
+            {/* Ultra-Humanized, Short Pain-Point Copy */}
+            <p className="font-sans text-base sm:text-lg text-[#18181B]/85 max-w-lg leading-relaxed font-medium">
+              You have the talent. But clients underpay, friends ask for free work, and nobody taught you how to charge in dollars. One full day in Ado-Ekiti to fix your pricing, upgrade your portfolio, and pitch for seed cash.
+            </p>
+
+            {/* Action Buttons & Quick Badges */}
+            <div className="pt-2 flex flex-col sm:flex-row items-stretch sm:items-center gap-3 sm:gap-4">
+              <button
+                onClick={onRegisterClick}
+                className="group inline-flex items-center justify-center gap-3 bg-[#FF4D00] hover:bg-[#18181B] text-white px-7 sm:px-9 py-4 font-mono font-black text-xs uppercase tracking-wider transition-all border-2 border-[#18181B] shadow-[4px_4px_0px_#18181B] active:translate-x-1 active:translate-y-1 w-full sm:w-auto"
+              >
+                <span>GET YOUR FREE TICKET</span>
+                <ArrowRight className="w-4 h-4 group-hover:translate-x-1.5 transition-transform stroke-[2.5]" />
+              </button>
+
+              <div className="flex items-center justify-center sm:justify-start gap-2 text-xs font-mono text-[#18181B] font-black py-1">
+                <span className="w-2.5 h-2.5 rounded-full bg-[#10B981] animate-ping" />
+                <span>CIVIC CENTRE • 100% FREE RSVP</span>
+              </div>
+            </div>
+
+            {/* Perks Tag */}
+            <div className="pt-1 flex items-center gap-3 text-xs font-mono text-[#18181B]/70 font-bold">
+              <PicassoPalettePatch color="#FF4D00" className="w-14 h-5 shrink-0" />
+              <span>Includes free lunch, design pack & ₦10M pitch competition.</span>
             </div>
           </div>
 
-          {/* Right Column: Deconstructed Picasso Cubist Collage Visual */}
+          {/* Right Column: High-Contrast Pop Collage Visual */}
           <div className="lg:col-span-5 relative flex justify-center items-center pt-2 sm:pt-0">
             {/* Abstract Picasso Contour Face Layer */}
-            <div className="absolute -top-8 -right-4 hidden sm:block z-20 pointer-events-none opacity-90">
-              <PicassoAbstractFace size={220} />
+            <div className="absolute -top-10 -right-6 hidden sm:block z-20 pointer-events-none opacity-90 drop-shadow-[4px_4px_0px_rgba(0,0,0,0.15)]">
+              <PicassoAbstractFace size={230} />
             </div>
 
-            {/* Overlapping Asymmetrical Framed Portrait */}
-            <div className="relative w-full max-w-[240px] xs:max-w-[260px] sm:max-w-[290px] lg:max-w-[320px] aspect-[3/4] border-2 sm:border-[3px] border-[#18181B] bg-[#C94A29] p-2 shadow-[5px_5px_0px_#18181B] sm:shadow-[6px_6px_0px_#18181B] rotate-0 sm:rotate-[-2deg] hover:rotate-0 transition-transform duration-500">
-              <div className="w-full h-full overflow-hidden border border-[#18181B] bg-black relative">
+            {/* Overlapping Asymmetrical Framed Portrait with Electric Canary & Orange Pop */}
+            <div className="relative w-full max-w-[260px] xs:max-w-[280px] sm:max-w-[310px] aspect-[3/4] border-[3px] border-[#18181B] bg-[#FFE600] p-2.5 shadow-[8px_8px_0px_#18181B] rotate-0 sm:rotate-[-2deg] hover:rotate-0 transition-transform duration-300">
+              <div className="w-full h-full overflow-hidden border-2 border-[#18181B] bg-black relative">
                 <img
                   src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=800&q=85"
                   alt="Young Nigerian Creative"
                   className="w-full h-full object-cover grayscale contrast-125 hover:grayscale-0 transition-all duration-500"
                 />
                 
-                {/* Cubist Color Chip Badge */}
-                <div className="absolute top-2.5 left-2.5 bg-[#FBBF24] text-[#18181B] border-2 border-[#18181B] font-mono font-black text-[9px] px-2 py-0.5 uppercase tracking-wider shadow-[2px_2px_0px_#18181B]">
+                {/* Pop Sticker Top-Left */}
+                <div className="absolute top-2.5 left-2.5 bg-[#FF4D00] text-white border-2 border-[#18181B] font-mono font-black text-[10px] px-2.5 py-1 uppercase tracking-wider shadow-[2px_2px_0px_#18181B] rotate-[-3deg]">
                   ADO-EKITI 2025
                 </div>
 
-                <div className="absolute bottom-2 left-2 right-2 bg-white/95 border border-[#18181B] p-2 text-center">
+                {/* Pop Sticker Bottom */}
+                <div className="absolute bottom-2.5 left-2.5 right-2.5 bg-white border-2 border-[#18181B] p-2 text-center shadow-[3px_3px_0px_#18181B]">
                   <span className="font-syne font-black text-xs text-[#18181B] uppercase block">
-                    STANDOUT 2025
+                    1,500+ CREATIVES OUTSIDE
                   </span>
-                  <span className="font-mono text-[9px] text-[#18181B]/70 uppercase">
-                    EKITI CIVIC CENTRE
+                  <span className="font-mono text-[9px] text-[#FF4D00] font-black uppercase">
+                    OCTOBER 25 • NO SUITS ALLOWED
                   </span>
                 </div>
               </div>
@@ -95,34 +105,34 @@ export const PicassoHero: React.FC<HeroProps> = ({ onRegisterClick }) => {
         </div>
       </div>
 
-      {/* Under-Hero Cubist Metric Blocks */}
+      {/* Under-Hero Electric Metric Blocks with Vivid Contrast */}
       <div className="mt-6 sm:mt-8 grid grid-cols-1 sm:grid-cols-3 gap-4 sm:gap-5">
-        <div className="border-2 border-[#18181B] p-4 sm:p-5 bg-[#FAF6EE] shadow-[3px_3px_0px_#18181B] sm:shadow-[4px_4px_0px_#18181B] flex items-center justify-between">
+        <div className="border-[2.5px] border-[#18181B] p-5 bg-[#FEF9C3] shadow-[4px_4px_0px_#18181B] flex items-center justify-between hover:translate-y-[-2px] transition-transform">
           <div>
-            <p className="font-syne font-black text-2xl sm:text-3xl text-[#18181B]">1,500+</p>
-            <p className="font-mono text-xs text-[#18181B]/70 uppercase font-bold mt-0.5">Creatives Coming</p>
+            <p className="font-syne font-black text-3xl text-[#18181B]">1,500+</p>
+            <p className="font-mono text-xs text-[#18181B] uppercase font-black mt-0.5">Creatives Coming</p>
           </div>
-          <span className="w-8 h-8 rounded-full bg-[#C94A29] border border-[#18181B] flex items-center justify-center text-white text-xs font-bold shrink-0">
+          <span className="w-9 h-9 rounded-full bg-[#18181B] border-2 border-[#18181B] flex items-center justify-center text-[#FFE600] font-mono text-xs font-black shrink-0 shadow-[2px_2px_0px_#FF4D00]">
             01
           </span>
         </div>
 
-        <div className="border-2 border-[#18181B] p-4 sm:p-5 bg-[#FAF6EE] shadow-[3px_3px_0px_#18181B] sm:shadow-[4px_4px_0px_#18181B] flex items-center justify-between">
+        <div className="border-[2.5px] border-[#18181B] p-5 bg-[#EFF6FF] shadow-[4px_4px_0px_#18181B] flex items-center justify-between hover:translate-y-[-2px] transition-transform">
           <div>
-            <p className="font-syne font-black text-2xl sm:text-3xl text-[#18181B]">24+</p>
-            <p className="font-mono text-xs text-[#18181B]/70 uppercase font-bold mt-0.5">Working Mentors</p>
+            <p className="font-syne font-black text-3xl text-[#18181B]">24</p>
+            <p className="font-mono text-xs text-[#18181B] uppercase font-black mt-0.5">Working Mentors</p>
           </div>
-          <span className="w-8 h-8 rounded-full bg-[#2563EB] border border-[#18181B] flex items-center justify-center text-white text-xs font-bold shrink-0">
+          <span className="w-9 h-9 rounded-full bg-[#2563EB] border-2 border-[#18181B] flex items-center justify-center text-white font-mono text-xs font-black shrink-0 shadow-[2px_2px_0px_#18181B]">
             02
           </span>
         </div>
 
-        <div className="border-2 border-[#18181B] p-4 sm:p-5 bg-[#FAF6EE] shadow-[3px_3px_0px_#18181B] sm:shadow-[4px_4px_0px_#18181B] flex items-center justify-between">
+        <div className="border-[2.5px] border-[#18181B] p-5 bg-[#FFF1F2] shadow-[4px_4px_0px_#18181B] flex items-center justify-between hover:translate-y-[-2px] transition-transform">
           <div>
-            <p className="font-syne font-black text-xl sm:text-2xl lg:text-3xl text-[#C94A29] tracking-tight">₦10,000,000</p>
-            <p className="font-mono text-xs text-[#18181B]/70 uppercase font-bold mt-0.5">Pitch Grants</p>
+            <p className="font-syne font-black text-2xl lg:text-3xl text-[#FF4D00] tracking-tight">₦10,000,000</p>
+            <p className="font-mono text-xs text-[#18181B] uppercase font-black mt-0.5">Free Pitch Grants</p>
           </div>
-          <span className="w-8 h-8 rounded-full bg-[#F59E0B] border border-[#18181B] flex items-center justify-center text-[#18181B] text-xs font-bold shrink-0">
+          <span className="w-9 h-9 rounded-full bg-[#FF4D00] border-2 border-[#18181B] flex items-center justify-center text-white font-mono text-xs font-black shrink-0 shadow-[2px_2px_0px_#18181B]">
             03
           </span>
         </div>

@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { PicassoNavbar } from './components/PicassoNavbar';
 import { PicassoHero } from './components/PicassoHero';
+import { PicassoTicker } from './components/PicassoTicker';
 import { PicassoManifesto } from './components/PicassoManifesto';
 import { PicassoWorkspaces } from './components/PicassoWorkspaces';
 import { PicassoWhyAttend } from './components/PicassoWhyAttend';
@@ -37,6 +38,9 @@ export function App() {
       <main>
         {/* 2. Deconstructed Cubist Hero with Picasso Contour Line Art & Collage */}
         <PicassoHero onRegisterClick={() => handleOpenRegistration()} />
+
+        {/* Dynamic Electric Ticker */}
+        <PicassoTicker />
 
         {/* 3. The Manifesto & 4 Asymmetrical Pillars */}
         <PicassoManifesto onRegisterClick={() => handleOpenRegistration()} />

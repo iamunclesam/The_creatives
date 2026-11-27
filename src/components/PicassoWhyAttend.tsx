@@ -1,5 +1,5 @@
 import React from 'react';
-import { Compass, Palette, Users, Sparkles, TrendingUp, Trophy, ArrowRight } from 'lucide-react';
+import { Eye, DollarSign, Trophy, Users, Zap, Coffee, ArrowRight } from 'lucide-react';
 
 interface WhyAttendProps {
   onRegisterClick: () => void;
@@ -9,125 +9,123 @@ export const PicassoWhyAttend: React.FC<WhyAttendProps> = ({ onRegisterClick }) 
   const points = [
     {
       num: "01",
-      badgeColor: "bg-[#C94A29] text-white",
-      title: "Learn from people who've done it",
-      desc: "Get real, practical advice from people who actually run profitable studios and businesses.",
-      highlight: "Real examples, zero fluffy speeches.",
-      icon: <Compass className="w-5 h-5" />
+      badgeColor: "bg-[#FF4D00] text-white",
+      title: "Honest Portfolio Roasts",
+      desc: "No polite fake compliments. Top directors review your work live and tell you exactly what's stopping you from charging premium rates.",
+      tag: "FIX YOUR BOOK",
+      icon: Eye
     },
     {
       num: "02",
       badgeColor: "bg-[#2563EB] text-white",
-      title: "Discover the best modern tools",
-      desc: "Find out what software, equipment, and simple digital tools top creatives use to work fast.",
-      highlight: "Workflows you can use immediately.",
-      icon: <Palette className="w-5 h-5" />
+      title: "Actual Pricing Breakdowns",
+      desc: "See real invoices from creators making $1,000 to $5,000+ monthly from Nigeria. Learn contract clauses and upfront deposit tactics.",
+      tag: "STOP UNDERCHARGING",
+      icon: DollarSign
     },
     {
       num: "03",
-      badgeColor: "bg-[#F59E0B] text-black",
-      title: "Find teammates and friends",
-      desc: "Meet 1,500 other creators. Connect with video editors, designers, developers, and producers.",
-      highlight: "Stop working completely alone.",
-      icon: <Users className="w-5 h-5" />
+      badgeColor: "bg-[#FFE600] text-[#18181B]",
+      title: "Live ₦10M Pitch Stage",
+      desc: "Have a studio idea, short film, fashion capsule, or creative app? Pitch live to judges and leave with real cash funding.",
+      tag: "NON-DILUTIVE CASH",
+      icon: Trophy
     },
     {
       num: "04",
-      badgeColor: "bg-[#18181B] text-white",
-      title: "Get your work reviewed for free",
-      desc: "Show your portfolio, designs, videos, or beats to top directors and get honest advice on how to improve.",
-      highlight: "1-on-1 portfolio review tables.",
-      icon: <Sparkles className="w-5 h-5" />
+      badgeColor: "bg-[#10B981] text-white",
+      title: "Stop Creating in Isolation",
+      desc: "Meet 1,500+ ambitious videographers, graphic designers, audio engineers, and developers who can become your co-founders and team.",
+      tag: "FIND COLLABORATORS",
+      icon: Users
     },
     {
       num: "05",
-      badgeColor: "bg-[#C94A29] text-white",
-      title: "Learn how to charge more money",
-      desc: "Learn how to price your work, write simple contracts, and find clients who pay in foreign currency.",
-      highlight: "Get paid what your work is worth.",
-      icon: <TrendingUp className="w-5 h-5" />
+      badgeColor: "bg-[#18181B] text-white",
+      title: "The Modern Tech Stack",
+      desc: "Discover the exact AI plugins, design templates, and lighting gear that allow lean 1-person studios to deliver agency-grade work.",
+      tag: "FASTER EXECUTION",
+      icon: Zap
     },
     {
       num: "06",
-      badgeColor: "bg-[#2563EB] text-white",
-      title: "Pitch for ₦10M in free grants",
-      desc: "Submit your creative idea or project. Finalists pitch live on stage to win seed funding with zero debt.",
-      highlight: "Real cash grants on the main stage.",
-      icon: <Trophy className="w-5 h-5" />
+      badgeColor: "bg-[#FF4D00] text-white",
+      title: "Free Lunch & Delegate Swag",
+      desc: "Good food, drinks, and an official StandOut creator kit on the house. Nobody does creative work on an empty stomach.",
+      tag: "ON THE HOUSE",
+      icon: Coffee
     }
   ];
 
   return (
-    <section id="why-attend" className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 border-t-2 border-[#18181B]">
-      {/* Header */}
-      <div className="flex flex-col sm:flex-row sm:items-center justify-between pb-4 border-b-2 border-[#18181B] gap-2 mb-8">
+    <section id="benefits" className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 border-t-[2.5px] border-[#18181B]">
+      {/* Header with Pop */}
+      <div className="flex flex-col sm:flex-row sm:items-center justify-between pb-4 border-b-[2.5px] border-[#18181B] gap-3 mb-8">
         <div className="flex items-center gap-3">
-       
-          <h2 className="font-syne font-black text-2xl uppercase tracking-tight text-[#18181B]">
-            WHAT YOU GET BY ATTENDING
+          <span className="w-4 h-4 bg-[#FFE600] border-2 border-[#18181B] rotate-45" />
+          <h2 className="font-syne font-black text-2xl sm:text-3xl uppercase tracking-tight text-[#18181B]">
+            WHAT YOU ACTUALLY GET
           </h2>
         </div>
-        <span className="text-xs font-mono text-[#C94A29] font-bold uppercase">
-          6 DIRECT OPPORTUNITIES
+        <span className="px-3 py-1 bg-[#FF4D00] text-white font-mono text-xs font-black uppercase tracking-wider self-start sm:self-auto shadow-[2px_2px_0px_#18181B]">
+          6 CONCRETE ADVANTAGES
         </span>
       </div>
 
-      {/* 6 Picasso Cards */}
+      {/* 6 Picasso Cards with Electric Visual Pop */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-        {points.map((pt) => (
-          <div
-            key={pt.num}
-            className="picasso-card p-5 rounded-bl-3xl flex flex-col justify-between space-y-4"
-          >
-            <div>
-              <div className="flex items-center justify-between border-b border-[#18181B]/15 pb-2 mb-3">
-                <span className="font-syne font-black text-3xl text-[#18181B]">
-                  {pt.num}
-                </span>
-                <div className={`w-8 h-8 rounded-full border border-[#18181B] flex items-center justify-center ${pt.badgeColor}`}>
-                  {pt.icon}
+        {points.map((pt) => {
+          const Icon = pt.icon;
+          return (
+            <div
+              key={pt.num}
+              className="picasso-card p-5 rounded-bl-3xl flex flex-col justify-between space-y-4 hover:translate-y-[-3px] transition-transform"
+            >
+              <div>
+                <div className="flex items-center justify-between border-b-2 border-[#18181B] pb-2 mb-3">
+                  <span className="font-syne font-black text-2xl text-[#18181B]">
+                    {pt.num}
+                  </span>
+                  <div className={`w-8 h-8 rounded-full border-2 border-[#18181B] flex items-center justify-center shadow-[1.5px_1.5px_0px_#18181B] ${pt.badgeColor}`}>
+                    <Icon className="w-4 h-4 stroke-[2.5]" />
+                  </div>
                 </div>
+
+                <h3 className="font-syne font-black text-lg text-[#18181B] uppercase leading-tight">
+                  {pt.title}
+                </h3>
+
+                <p className="font-sans text-xs sm:text-sm text-[#18181B]/80 mt-2 leading-relaxed font-medium">
+                  {pt.desc}
+                </p>
               </div>
 
-              <h3 className="font-syne font-bold text-lg text-[#18181B] uppercase leading-snug">
-                {pt.title}
-              </h3>
-
-              <p className="font-sans text-xs sm:text-sm text-[#18181B]/80 mt-2 leading-relaxed">
-                {pt.desc}
-              </p>
+              <div className="pt-3 border-t-2 border-[#18181B]/15 font-mono text-[11px] text-[#FF4D00] font-black uppercase tracking-wider">
+                ★ {pt.tag}
+              </div>
             </div>
-
-            <div className="pt-3 border-t border-[#18181B]/15 font-mono text-xs text-[#C94A29] font-bold">
-              ★ {pt.highlight}
-            </div>
-          </div>
-        ))}
+          );
+        })}
       </div>
 
-      {/* Callout Strip */}
-      <div className="mt-8 picasso-card p-6 bg-[#FAF6EE] flex flex-col sm:flex-row items-center justify-between gap-6 rounded-tr-3xl">
+      {/* Pop Callout Banner */}
+      <div className="mt-8 border-[2.5px] border-[#18181B] p-6 bg-[#FEF9C3] shadow-[5px_5px_0px_#18181B] flex flex-col sm:flex-row items-center justify-between gap-6 rounded-tr-3xl">
         <div className="space-y-1 text-center sm:text-left">
-          <span className="text-[10px] font-mono font-bold uppercase tracking-widest text-[#C94A29]">
-            EVERY PASS IS COMPLETELY FREE
+          <span className="text-[10px] font-mono font-black uppercase tracking-widest text-[#FF4D00]">
+            ZERO HIDDEN FEES • ZERO UPSALE
           </span>
-          <h4 className="font-syne font-bold text-xl text-[#18181B]">
-            Free lunch, event pack, and review access included for every attendee.
+          <h4 className="font-syne font-black text-xl text-[#18181B] uppercase">
+            EVERY TICKET GIVES YOU 100% ACCESS TO ALL LABS & FOOD.
           </h4>
-          <p className="font-sans text-xs text-[#18181B]/75">
-            Venue holds 2,000 seats. Claim your free pass early before registration closes.
-          </p>
         </div>
 
         <button
           onClick={onRegisterClick}
-          className="bg-[#C94A29] hover:bg-[#18181B] text-white px-7 py-3.5 font-mono font-bold text-xs uppercase tracking-widest transition-all border-2 border-[#18181B] shadow-[3px_3px_0px_#18181B] shrink-0 flex items-center gap-2"
+          className="bg-[#18181B] hover:bg-[#FF4D00] text-white px-6 py-3 font-mono font-black text-xs uppercase tracking-wider border-2 border-[#18181B] shadow-[3px_3px_0px_#FF4D00] shrink-0 transition-all active:translate-x-0.5 active:translate-y-0.5"
         >
-          <span>GET MY PASS</span>
-          <ArrowRight className="w-4 h-4" />
+          CLAIM PASS NOW
         </button>
       </div>
     </section>
   );
 };
-
