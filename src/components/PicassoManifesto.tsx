@@ -92,17 +92,17 @@ export const PicassoManifesto: React.FC<ManifestoProps> = ({ onRegisterClick }) 
         })}
       </div>
 
-      {/* Grant Banner Callout with Massive Visual Pop */}
+      {/* Brand Spotlight Callout with Massive Visual Pop */}
       <div className="mt-8 border-[3px] border-[#18181B] bg-[#FF4D00] text-white p-6 sm:p-8 shadow-[6px_6px_0px_#18181B] flex flex-col md:flex-row items-center justify-between gap-6 rounded-tr-3xl">
         <div className="space-y-1 text-center md:text-left">
           <span className="inline-block px-2.5 py-0.5 bg-[#FFE600] text-[#18181B] border border-[#18181B] font-mono text-[10px] font-black uppercase tracking-wider mb-2">
-            ₦10,000,000 NO-STRINGS CASH FUND
+            NO PITCH DECKS • REAL AUDIENCE EXPOSURE
           </span>
           <h3 className="font-syne font-black text-2xl sm:text-3xl uppercase leading-tight">
-            PITCH YOUR PROJECT. WALK AWAY WITH SEED CAPITAL.
+            TELL 1,500+ CREATIVES ABOUT YOUR BRAND.
           </h3>
           <p className="font-sans text-xs sm:text-sm text-white/90 max-w-xl">
-            No bank loans. No giving up company equity. If your creative idea or project is legit, our judges will fund it on the spot.
+            Have a design studio, fashion capsule, production house, or tech product? We give selected builders dedicated stage time to introduce their work and meet real paying clients.
           </p>
         </div>
 
@@ -110,7 +110,7 @@ export const PicassoManifesto: React.FC<ManifestoProps> = ({ onRegisterClick }) 
           onClick={onRegisterClick}
           className="bg-white hover:bg-[#FFE600] text-[#18181B] px-6 py-3.5 font-mono font-black text-xs uppercase tracking-wider border-2 border-[#18181B] shadow-[3px_3px_0px_#18181B] shrink-0 transition-all flex items-center gap-2 active:translate-x-0.5 active:translate-y-0.5"
         >
-          <span>REGISTER TO PITCH</span>
+          <span>APPLY FOR BRAND SPOTLIGHT</span>
           <ArrowRight className="w-4 h-4 stroke-[2.5]" />
         </button>
       </div>

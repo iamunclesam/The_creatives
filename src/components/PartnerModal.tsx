@@ -111,7 +111,7 @@ export const PartnerModal: React.FC<PartnerModalProps> = ({ isOpen, onClose }) =
                   <option value="Strategic Headline Sponsor">Strategic Headline Partner / Co-Convener</option>
                   <option value="Technology & Cloud Sponsor">Technology, AI & Cloud Infrastructure Sponsor</option>
                   <option value="Creative Masterclass Track Sponsor">Creative Masterclass Track Sponsor</option>
-                  <option value="Creative Pitch Grants Donor (₦10M+)">Creative Pitch Grants Donor / Seed Fund</option>
+                  <option value="Brand Showcase & Stage Partner">Brand Showcase & Stage Partner</option>
                   <option value="Exhibition Booth & Experience Dome">Exhibition Booth & Experience Dome</option>
                   <option value="Media & Broadcast Partner">Media & Broadcast Partner</option>
                 </select>

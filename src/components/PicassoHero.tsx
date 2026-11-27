@@ -65,7 +65,7 @@ export const PicassoHero: React.FC<HeroProps> = ({ onRegisterClick }) => {
             {/* Perks Tag */}
             <div className="pt-1 flex items-center gap-3 text-xs font-mono text-[#18181B]/70 font-bold">
               <PicassoPalettePatch color="#FF4D00" className="w-14 h-5 shrink-0" />
-              <span>Includes free lunch, design pack & ₦10M pitch competition.</span>
+              <span>Includes free lunch, creator kit & brand showcase stage opportunity.</span>
             </div>
           </div>
 
@@ -129,8 +129,8 @@ export const PicassoHero: React.FC<HeroProps> = ({ onRegisterClick }) => {
 
         <div className="border-[2.5px] border-[#18181B] p-5 bg-[#FFF1F2] shadow-[4px_4px_0px_#18181B] flex items-center justify-between hover:translate-y-[-2px] transition-transform">
           <div>
-            <p className="font-syne font-black text-2xl lg:text-3xl text-[#FF4D00] tracking-tight">₦10,000,000</p>
-            <p className="font-mono text-xs text-[#18181B] uppercase font-black mt-0.5">Free Pitch Grants</p>
+            <p className="font-syne font-black text-2xl lg:text-3xl text-[#FF4D00] tracking-tight">STAGE TIME</p>
+            <p className="font-mono text-xs text-[#18181B] uppercase font-black mt-0.5">Showcase Your Brand</p>
           </div>
           <span className="w-9 h-9 rounded-full bg-[#FF4D00] border-2 border-[#18181B] flex items-center justify-center text-white font-mono text-xs font-black shrink-0 shadow-[2px_2px_0px_#18181B]">
             03

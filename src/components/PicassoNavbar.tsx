@@ -83,54 +83,70 @@ export const PicassoNavbar: React.FC<NavbarProps> = ({ onRegisterClick, onPartne
         </div>
       </div>
 
-      {/* Mobile Drawer */}
+      {/* Mobile Drawer with Solid Background & Brand Spotlight */}
       {mobileMenuOpen && (
-        <div className="md:hidden fixed inset-0 top-[67px] bg-[#FAF7F0] z-40 p-6 flex flex-col justify-between border-t-2 border-[#18181B]">
-          <div className="space-y-4 pt-4">
+        <div className="md:hidden fixed inset-x-0 top-[60px] sm:top-[66px] bottom-0 z-50 bg-[#FAF7F0] border-t-[2.5px] border-[#18181B] p-6 flex flex-col justify-between overflow-y-auto shadow-2xl">
+          <div className="space-y-3 pt-2">
             <a
               href="#hangout"
               onClick={() => setMobileMenuOpen(false)}
-              className="block font-syne font-black text-2xl text-[#FF4D00]"
+              className="flex items-center justify-between p-3 bg-[#FFE600] border-2 border-[#18181B] shadow-[2.5px_2.5px_0px_#18181B]"
             >
-              ★ DEC 12 HANGOUT
+              <span className="font-syne font-black text-lg text-[#18181B] uppercase">
+                ★ DEC 12 TECH HANGOUT
+              </span>
+              <span className="text-[10px] font-mono font-black bg-[#FF4D00] text-white px-2 py-0.5 border border-[#18181B]">
+                LIMITED
+              </span>
             </a>
+
             <a
               href="#struggle"
               onClick={() => setMobileMenuOpen(false)}
-              className="block font-syne font-black text-2xl text-[#18181B] hover:text-[#FF4D00]"
+              className="block font-syne font-black text-2xl text-[#18181B] hover:text-[#FF4D00] py-1 border-b border-[#18181B]/15"
             >
               01 // THE STRUGGLE
             </a>
             <a
               href="#workshops"
               onClick={() => setMobileMenuOpen(false)}
-              className="block font-syne font-black text-2xl text-[#18181B] hover:text-[#FF4D00]"
+              className="block font-syne font-black text-2xl text-[#18181B] hover:text-[#FF4D00] py-1 border-b border-[#18181B]/15"
             >
               02 // CRAFT LABS
             </a>
             <a
               href="#benefits"
               onClick={() => setMobileMenuOpen(false)}
-              className="block font-syne font-black text-2xl text-[#18181B] hover:text-[#FF4D00]"
+              className="block font-syne font-black text-2xl text-[#18181B] hover:text-[#FF4D00] py-1 border-b border-[#18181B]/15"
             >
               03 // WHAT YOU GET
             </a>
             <a
               href="#mentors"
               onClick={() => setMobileMenuOpen(false)}
-              className="block font-syne font-black text-2xl text-[#18181B] hover:text-[#FF4D00]"
+              className="block font-syne font-black text-2xl text-[#18181B] hover:text-[#FF4D00] py-1 border-b border-[#18181B]/15"
             >
               04 // MENTORS
             </a>
+
+            {/* Brand Opportunity Mini-Card */}
+            <div className="bg-white border-2 border-[#18181B] p-3.5 shadow-[3px_3px_0px_#18181B] rounded-xl mt-3">
+              <span className="text-[10px] font-mono font-black text-[#FF4D00] uppercase tracking-wider block">
+                ★ GOT A CREATIVE BRAND OR STUDIO?
+              </span>
+              <p className="font-sans text-xs text-[#18181B] font-bold mt-1 leading-snug">
+                Take the stage and tell 1,500+ attendees what you build. No pitch contest, just real audience exposure.
+              </p>
+            </div>
           </div>
 
-          <div className="space-y-3 pt-6 border-t-2 border-[#18181B]">
+          <div className="space-y-3 pt-4 border-t-2 border-[#18181B] mt-4">
             <button
               onClick={() => {
                 setMobileMenuOpen(false);
                 onRegisterClick();
               }}
-              className="w-full bg-[#FF4D00] text-white py-4 font-mono font-black text-xs uppercase tracking-widest border-2 border-[#18181B] shadow-[4px_4px_0px_#18181B]"
+              className="w-full bg-[#FF4D00] hover:bg-[#18181B] text-white py-4 font-mono font-black text-xs uppercase tracking-widest border-2 border-[#18181B] shadow-[4px_4px_0px_#18181B] active:translate-x-0.5 active:translate-y-0.5"
             >
               CLAIM YOUR FREE PASS
             </button>

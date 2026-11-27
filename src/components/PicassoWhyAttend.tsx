@@ -26,9 +26,9 @@ export const PicassoWhyAttend: React.FC<WhyAttendProps> = ({ onRegisterClick }) 
     {
       num: "03",
       badgeColor: "bg-[#FFE600] text-[#18181B]",
-      title: "Live ₦10M Pitch Stage",
-      desc: "Have a studio idea, short film, fashion capsule, or creative app? Pitch live to judges and leave with real cash funding.",
-      tag: "NON-DILUTIVE CASH",
+      title: "Main Stage Brand Spotlight",
+      desc: "Have a design studio, fashion capsule, agency, or creative app? You get the microphone to tell 1,500+ attendees and prospective clients what you do.",
+      tag: "TELL YOUR STORY",
       icon: Trophy
     },
     {
