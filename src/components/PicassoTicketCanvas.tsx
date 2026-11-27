@@ -25,30 +25,30 @@ export const PicassoTicketCanvas: React.FC<TicketProps> = ({ onRegisterClick }) 
                 100% FREE ADMISSION
               </span>
               <span className="text-xs font-mono font-bold text-[#18181B]/60">
-                #EX-2025-EKITI
+                #EX-2K27-EKITI
               </span>
             </div>
 
             <h3 className="font-syne font-extrabold text-2xl xs:text-3xl sm:text-4xl lg:text-5xl uppercase tracking-tight text-[#18181B] leading-tight break-words">
-              EMERGENCEX 2025
+              EMERGENCEX 2K27
             </h3>
 
             <p className="font-sans text-sm sm:text-base text-[#18181B]/85 max-w-xl leading-relaxed font-medium">
-              One full pass unlocks everything: all 4 craft masterclasses, portfolio review slots, free lunch, delegate swag, and the live ₦10M seed pitch stage.
+              One full pass unlocks everything: entry to the <strong>Dec 12th Tech Hangout</strong>, plus priority access to the massive <strong>2K27 Main Summit</strong>, portfolio reviews, free food, and the ₦10M pitch fund.
             </p>
 
             <div className="grid grid-cols-2 sm:grid-cols-3 gap-4 pt-3 font-mono text-xs border-t-2 border-[#18181B]/20">
               <div>
-                <span className="text-[#18181B]/50 block uppercase font-bold">DATE:</span>
-                <span className="font-black text-[#18181B]">SAT OCT 25, 2025</span>
+                <span className="text-[#18181B]/50 block uppercase font-bold">NEXT UP:</span>
+                <span className="font-black text-[#FF4D00]">DEC 12TH HANGOUT</span>
               </div>
               <div>
-                <span className="text-[#18181B]/50 block uppercase font-bold">VENUE:</span>
-                <span className="font-black text-[#18181B]">CIVIC CENTRE, EKITI</span>
+                <span className="text-[#18181B]/50 block uppercase font-bold">MAIN SUMMIT:</span>
+                <span className="font-black text-[#18181B]">YEAR 2K27</span>
               </div>
               <div>
                 <span className="text-[#18181B]/50 block uppercase font-bold">ADMISSION:</span>
-                <span className="font-black text-[#FF4D00]">100% FREE (RSVP)</span>
+                <span className="font-black text-[#10B981]">100% FREE (RSVP)</span>
               </div>
             </div>
           </div>
@@ -83,7 +83,7 @@ export const PicassoTicketCanvas: React.FC<TicketProps> = ({ onRegisterClick }) 
                 ))}
               </div>
               <span className="font-mono text-[10px] tracking-[0.25em] text-[#18181B]/70 font-black">
-                #EMERGENCEX-EKITI-2025
+                #EMERGENCEX-2K27-EKITI
               </span>
             </div>
           </div>

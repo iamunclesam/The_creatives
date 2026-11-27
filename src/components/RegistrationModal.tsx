@@ -72,7 +72,7 @@ export const RegistrationModal: React.FC<RegistrationModalProps> = ({
                 Reserve Your Spot
               </h3>
               <p className="text-xs sm:text-sm text-[#94949E]">
-                Join 1,500+ creatives at Ekiti State Civic & Cultural Centre on {eventConfig.dateFormatted}.
+                RSVP for the <strong>Dec 12th Tech Workshop Hangout</strong> or reserve your <strong>EmergenceX 2K27</strong> pass in Ado-Ekiti.
               </p>
             </div>
 
@@ -221,7 +221,7 @@ export const RegistrationModal: React.FC<RegistrationModalProps> = ({
 
               <div className="flex items-center gap-2 mb-4">
                 <Sparkles className="w-4 h-4 text-[#FF4600]" />
-                <span className="font-display font-bold text-sm text-white">EMERGENCEX 2025</span>
+                <span className="font-display font-bold text-sm text-white">EMERGENCEX 2K27</span>
               </div>
 
               <div className="space-y-2 border-b border-white/10 pb-4">
@@ -232,8 +232,8 @@ export const RegistrationModal: React.FC<RegistrationModalProps> = ({
 
               <div className="py-4 grid grid-cols-2 gap-4 border-b border-white/10 text-xs">
                 <div>
-                  <span className="text-[10px] font-mono text-white/50 block">DATE & TIME</span>
-                  <span className="font-semibold text-white">Oct 25, 2025 • 9:00 AM</span>
+                  <span className="text-[10px] font-mono text-white/50 block">EVENT ACCESS</span>
+                  <span className="font-semibold text-white">Dec 12th Hangout & 2K27</span>
                 </div>
                 <div>
                   <span className="text-[10px] font-mono text-white/50 block">PASS CODE</span>

@@ -2,14 +2,15 @@ import React from 'react';
 
 export const PicassoTicker: React.FC = () => {
   const items = [
-    "EMERGENCEX 2025",
+    "NEXT UP: TECH WORKSHOP HANGOUT (DEC 12TH)",
+    "ROAD TO EMERGENCEX 2K27",
     "TIRED OF BEING OWED?",
     "LEARN TO CHARGE IN DOLLARS",
-    "NO BORING POWERPOINT SLIDES",
-    "REAL PORTFOLIO CRITIQUES",
+    "HANDS-ON LIVE CODING & DESIGN",
+    "PORTFOLIO ROASTS",
     "₦10,000,000 CASH PITCH",
     "FREE FOOD & MERCH",
-    "OCTOBER 25 • ADO-EKITI",
+    "ADO-EKITI 2K27",
   ];
 
   return (

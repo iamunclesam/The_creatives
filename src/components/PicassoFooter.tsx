@@ -9,11 +9,11 @@ export const PicassoFooter: React.FC = () => {
           <div className="flex items-center gap-2">
             <span className="w-3.5 h-3.5 bg-[#FF4D00] border border-[#18181B]" />
             <span className="font-syne font-black text-xl text-[#18181B] uppercase">
-              EMERGENCEX
+              EMERGENCEX 2K27
             </span>
           </div>
           <p className="text-[#18181B]/70 mt-1 font-bold">
-            Civic & Cultural Centre, Ado-Ekiti, Ekiti State, Nigeria.
+            Next Up: Pre-Summit Tech Hangout (Dec 12th) • Main Stage 2K27 • Ado-Ekiti, Nigeria.
           </p>
         </div>
 
@@ -31,7 +31,7 @@ export const PicassoFooter: React.FC = () => {
       </div>
 
       <div className="pt-4 flex flex-col sm:flex-row items-center justify-between text-[11px] font-mono text-[#18181B]/60 font-bold gap-2">
-        <span>© 2025 EMERGENCEX • ALL RIGHTS RESERVED</span>
+        <span>© 2K27 EMERGENCEX • ALL RIGHTS RESERVED</span>
         <span className="text-[#FF4D00]">BUILT FOR THE AMBITIOUS AFRICAN CREATIVE</span>
       </div>
     </footer>

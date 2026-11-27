@@ -27,11 +27,11 @@ export const PicassoHero: React.FC<HeroProps> = ({ onRegisterClick }) => {
             
             {/* Pop Badges */}
             <div className="flex flex-wrap items-center gap-2">
-              <span className="inline-flex items-center gap-1.5 px-3 py-1 bg-[#18181B] text-white border-2 border-[#18181B] font-mono text-[10px] sm:text-[11px] font-black uppercase tracking-wider shadow-[2px_2px_0px_#FF4D00]">
-                <span>ADO-EKITI • OCTOBER 25</span>
+              <span className="inline-flex items-center gap-1.5 px-3 py-1 bg-[#FF4D00] text-white border-2 border-[#18181B] font-mono text-[10px] sm:text-[11px] font-black uppercase tracking-wider shadow-[2px_2px_0px_#18181B]">
+                <span>NEXT UP: DEC 12TH TECH HANGOUT</span>
               </span>
               <span className="inline-flex items-center gap-1 px-2.5 py-1 bg-[#FFE600] text-[#18181B] border-2 border-[#18181B] font-mono text-[10px] sm:text-[11px] font-black uppercase tracking-wider shadow-[2px_2px_0px_#18181B] rotate-[-1deg]">
-                <span>NO BORING SLIDES</span>
+                <span>ROAD TO 2K27</span>
               </span>
             </div>
 
@@ -43,7 +43,7 @@ export const PicassoHero: React.FC<HeroProps> = ({ onRegisterClick }) => {
 
             {/* Ultra-Humanized, Short Pain-Point Copy */}
             <p className="font-sans text-base sm:text-lg text-[#18181B]/85 max-w-lg leading-relaxed font-medium">
-              You have the talent. But clients underpay, friends ask for free work, and nobody taught you how to charge in dollars. One full day in Ado-Ekiti to fix your pricing, upgrade your portfolio, and pitch for seed cash.
+              You have the talent. But clients underpay, friends ask for free work, and nobody taught you how to charge in dollars. Pull up to our <strong>Dec 12th Tech Hangout</strong> in Ado-Ekiti as we gear up for the massive <strong>2K27 summit</strong>.
             </p>
 
             {/* Action Buttons & Quick Badges */}
@@ -52,13 +52,13 @@ export const PicassoHero: React.FC<HeroProps> = ({ onRegisterClick }) => {
                 onClick={onRegisterClick}
                 className="group inline-flex items-center justify-center gap-3 bg-[#FF4D00] hover:bg-[#18181B] text-white px-7 sm:px-9 py-4 font-mono font-black text-xs uppercase tracking-wider transition-all border-2 border-[#18181B] shadow-[4px_4px_0px_#18181B] active:translate-x-1 active:translate-y-1 w-full sm:w-auto"
               >
-                <span>GET YOUR FREE TICKET</span>
+                <span>RSVP FOR DEC 12 HANGOUT</span>
                 <ArrowRight className="w-4 h-4 group-hover:translate-x-1.5 transition-transform stroke-[2.5]" />
               </button>
 
               <div className="flex items-center justify-center sm:justify-start gap-2 text-xs font-mono text-[#18181B] font-black py-1">
                 <span className="w-2.5 h-2.5 rounded-full bg-[#10B981] animate-ping" />
-                <span>CIVIC CENTRE • 100% FREE RSVP</span>
+                <span>ADO-EKITI • 100% FREE RSVP</span>
               </div>
             </div>
 
@@ -87,16 +87,16 @@ export const PicassoHero: React.FC<HeroProps> = ({ onRegisterClick }) => {
                 
                 {/* Pop Sticker Top-Left */}
                 <div className="absolute top-2.5 left-2.5 bg-[#FF4D00] text-white border-2 border-[#18181B] font-mono font-black text-[10px] px-2.5 py-1 uppercase tracking-wider shadow-[2px_2px_0px_#18181B] rotate-[-3deg]">
-                  ADO-EKITI 2025
+                  ADO-EKITI 2K27
                 </div>
 
                 {/* Pop Sticker Bottom */}
                 <div className="absolute bottom-2.5 left-2.5 right-2.5 bg-white border-2 border-[#18181B] p-2 text-center shadow-[3px_3px_0px_#18181B]">
                   <span className="font-syne font-extrabold text-xs text-[#18181B] uppercase block">
-                    EMERGENCEX 2025
+                    EMERGENCEX 2K27
                   </span>
                   <span className="font-mono text-[9px] text-[#FF4D00] font-black uppercase">
-                    1,500+ CREATIVES • OCT 25
+                    NEXT UP: DEC 12 HANGOUT
                   </span>
                 </div>
               </div>

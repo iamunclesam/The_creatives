@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { PicassoNavbar } from './components/PicassoNavbar';
 import { PicassoHero } from './components/PicassoHero';
 import { PicassoTicker } from './components/PicassoTicker';
+import { PreEventHangout } from './components/PreEventHangout';
 import { PicassoManifesto } from './components/PicassoManifesto';
 import { PicassoWorkspaces } from './components/PicassoWorkspaces';
 import { PicassoWhyAttend } from './components/PicassoWhyAttend';
@@ -41,6 +42,9 @@ export function App() {
 
         {/* Dynamic Electric Ticker */}
         <PicassoTicker />
+
+        {/* Mini Pre-Event Feature: Dec 12 Tech Workshop Hangout */}
+        <PreEventHangout onRegisterClick={() => handleOpenRegistration()} />
 
         {/* 3. The Manifesto & 4 Asymmetrical Pillars */}
         <PicassoManifesto onRegisterClick={() => handleOpenRegistration()} />

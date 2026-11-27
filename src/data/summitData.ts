@@ -1,12 +1,12 @@
 import { EventConfig, Speaker, ExperienceCardItem, ScheduleItem, WhyAttendItem, CommunityShowcaseItem, PartnerCategory, TicketTier } from '../types';
 
 export const eventConfig: EventConfig = {
-  name: "EmergenceX",
+  name: "EmergenceX 2K27",
   tagline: "Where African Creatives Build & Earn",
   heroHeadline: "STOP WORKING FOR EXPOSURE. EMERGE.",
   heroSubheadline: "Bringing together the next generation of creatives, innovators and industry leaders to turn craft into sustainable careers.",
-  date: "2025-10-25",
-  dateFormatted: "Saturday, 25 October 2025",
+  date: "2K27",
+  dateFormatted: "Pre-Event Hangout: Dec 12th • Main Summit 2K27",
   time: "9:00 AM – 6:00 PM WAT",
   venue: "Ekiti State Civic & Cultural Centre",
   location: "Ado-Ekiti",
@@ -424,57 +424,55 @@ export const partnerCategories: PartnerCategory[] = [
 
 export const ticketTiers: TicketTier[] = [
   {
-    id: "creative-pass",
-    name: "General Creative Pass",
-    badge: "100% SUBSIDIZED / FREE WITH RSVP",
+    id: "hangout-pass",
+    name: "Dec 12th Tech Hangout Pass",
+    badge: "LIMITED (80 SEATS)",
     price: "FREE",
-    priceLabel: "Early Access Registration",
-    description: "Full general access to the summit for aspiring creators, students, and early-career innovators.",
+    priceLabel: "Pre-Event RSVP",
+    description: "Hands-on tech workshop, live coding, project reviews, free food, and networking in preparation for 2K27.",
     features: [
-      "Access to Main Auditorium Keynotes",
-      "Access to Open Creative Showcases & VR Dome",
-      "Access to Afternoon Tech Sandbox Demos",
-      "Official EmergenceX Digital Badge & Swag Bag",
-      "Access to Festival Food Court & Sunset Music Session",
-    ],
-    isPopular: false,
-    ctaText: "Claim Free Creative Pass"
-  },
-  {
-    id: "masterclass-pass",
-    name: "Masterclass & Pro Pass",
-    badge: "MOST POPULAR",
-    price: "₦7,500",
-    priceLabel: "Subsidized Professional Pass",
-    description: "Designed for practicing professionals, freelancers, and senior creatives seeking intensive skills.",
-    features: [
-      "Everything in General Creative Pass",
-      "Guaranteed seat in 2 Hands-on Masterclass Labs",
-      "1-on-1 Portfolio & Project Review Session",
-      "Fast-track Summit Check-in & Priority Seating",
-      "Access to Private Masterclass Toolkit & Asset Packs",
-      "Certificate of Participation signed by conveners",
+      "Guaranteed seat at Dec 12th Tech Hangout",
+      "Live screen-share builds & coding teardowns",
+      "1-on-1 portfolio review slot with mentors",
+      "Free snacks, drinks & networking session",
+      "Automatic VIP priority for 2K27 Main Passes",
     ],
     isPopular: true,
-    ctaText: "Get Pro Masterclass Pass"
+    ctaText: "RSVP for Dec 12th Hangout"
   },
   {
-    id: "vip-pass",
-    name: "Executive & Founder Access",
-    badge: "LIMITED (100 SEATS)",
-    price: "₦25,000",
-    priceLabel: "VIP Industry Pass",
-    description: "For agency owners, tech founders, angel investors, brand executives, and ecosystem leaders.",
+    id: "2k27-creative-pass",
+    name: "EmergenceX 2K27 Main Summit",
+    badge: "100% FREE RSVP",
+    price: "FREE",
+    priceLabel: "Main 2K27 Summit Pass",
+    description: "Full general access to the 1,500+ creative gathering in Ado-Ekiti in year 2K27.",
     features: [
-      "Everything in Masterclass & Pro Pass",
-      "Access to VIP Speaker & Investor Networking Lounge",
-      "Reserved Front-Row Seating at Main Stage",
-      "Exclusive Invitation to Speakers & VIP Sunset Dinner",
-      "Direct Pitch Deal Room Access & Startup Lookbook",
-      "Dedicated Concierge Support",
+      "Access to all 4 Craft Labs (Design, Video, Audio, Code)",
+      "Main auditorium stages & keynotes",
+      "Eligibility to pitch for ₦10M seed cash",
+      "Official EmergenceX 2K27 badge & creator swag kit",
+      "Full lunch & refreshments included",
     ],
     isPopular: false,
-    ctaText: "Secure VIP Executive Seat"
+    ctaText: "Claim Free 2K27 Pass"
+  },
+  {
+    id: "all-access-pass",
+    name: "All-Access (Hangout + 2K27)",
+    badge: "RECOMMENDED",
+    price: "FREE",
+    priceLabel: "Full Creator Accreditation",
+    description: "Guaranteed entry to BOTH the Dec 12th Tech Workshop and the EmergenceX 2K27 Main Summit.",
+    features: [
+      "Entry to Dec 12th Tech Workshop Hangout",
+      "Priority seat at EmergenceX 2K27 Main Summit",
+      "Direct line to speaker mentor network",
+      "Access to asset packs & contract templates",
+      "Stage pitch priority submission",
+    ],
+    isPopular: false,
+    ctaText: "Get All-Access Accreditation"
   }
 ];
 
