@@ -2,13 +2,13 @@ import React from 'react';
 
 export const PicassoTicker: React.FC = () => {
   const items = [
-    "DEC 12 TECH MEETUP",
-    "EMERGENCEX 2K27",
-    "TELL EVERYONE ABOUT YOUR BRAND",
-    "LEARN TO CHARGE IN DOLLARS",
-    "LIVE CODING & DESIGN SESSIONS",
-    "HONEST PORTFOLIO REVIEWS",
-    "STAGE TIME FOR CREATORS",
+    "EMERGENCEX",
+    "UPCOMING: DEC 12 MEETUP",
+    "4 CRAFT LABS",
+    "USD PRICING BLUEPRINT",
+    "STAGE SPOTLIGHT",
+    "PORTFOLIO TEARDOWNS",
+    "FOR AFRICAN BUILDERS",
     "ADO-EKITI",
   ];
 
@@ -18,9 +18,9 @@ export const PicassoTicker: React.FC = () => {
         {[...items, ...items, ...items].map((text, idx) => (
           <div key={idx} className="flex items-center gap-4 mx-4">
             <span className="font-syne font-black text-sm sm:text-base tracking-wider uppercase text-[#18181B]">
-              {text === "EMERGENCEX 2K27" ? (
+              {text === "EMERGENCEX" ? (
                 <>
-                  EMERGENCE<span className="text-[#E02B20] text-[1.3em] font-black inline-block ml-0.5">X</span> 2K27
+                  EMERGENCE<span className="text-[#E02B20] text-[1.3em] font-black inline-block ml-0.5">X</span>
                 </>
               ) : (
                 text

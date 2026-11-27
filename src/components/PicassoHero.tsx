@@ -27,12 +27,13 @@ export const PicassoHero: React.FC<HeroProps> = ({ onRegisterClick }) => {
             
             {/* Pop Badges */}
             <div className="flex flex-wrap items-center gap-2">
-              <span className="inline-flex items-center gap-1.5 px-3 py-1 bg-[#FF4D00] text-white border-2 border-[#18181B] font-mono text-[10px] sm:text-[11px] font-black uppercase tracking-wider shadow-[2px_2px_0px_#18181B]">
-                <span>NEXT UP: DEC 12TH TECH HANGOUT</span>
+              <span className="inline-flex items-center gap-1.5 px-3 py-1 bg-[#18181B] text-white border-2 border-[#18181B] font-mono text-[10px] sm:text-[11px] font-black uppercase tracking-wider shadow-[2px_2px_0px_#18181B]">
+                <span>EMERGENCEX PLATFORM</span>
               </span>
-              <span className="inline-flex items-center gap-1 px-2.5 py-1 bg-[#FFE600] text-[#18181B] border-2 border-[#18181B] font-mono text-[10px] sm:text-[11px] font-black uppercase tracking-wider shadow-[2px_2px_0px_#18181B] rotate-[-1deg]">
-                <span>ROAD TO 2K27</span>
-              </span>
+              <a href="#hangout" className="inline-flex items-center gap-1.5 px-2.5 py-1 bg-[#FFE600] text-[#18181B] border-2 border-[#18181B] font-mono text-[10px] sm:text-[11px] font-black uppercase tracking-wider shadow-[2px_2px_0px_#18181B] rotate-[-1deg] hover:bg-[#FF4D00] hover:text-white transition-colors">
+                <span className="w-2 h-2 rounded-full bg-[#E02B20] animate-ping" />
+                <span>UPCOMING: DEC 12 MEETUP</span>
+              </a>
             </div>
 
             {/* Main Punchy Headline */}
@@ -41,31 +42,33 @@ export const PicassoHero: React.FC<HeroProps> = ({ onRegisterClick }) => {
               <span className="font-serif italic font-normal text-[#FF4D00] lowercase tracking-normal">time to</span> EMERGE.
             </h1>
 
-            {/* Ultra-Humanized, Short Pain-Point Copy */}
+            {/* Lean Product Copy */}
             <p className="font-sans text-base sm:text-lg text-[#18181B]/85 max-w-lg leading-relaxed font-medium">
-              You have the talent. But clients underpay, friends ask for free work, and nobody taught you how to charge in dollars. Pull up to our <strong>Dec 12th Tech Hangout</strong> in Ado-Ekiti as we gear up for the massive <strong>2K27 summit</strong>.
+              EmergenceX is the product and platform helping African creatives master high-income craft, stop undercharging, and get paid what they're actually worth.
             </p>
 
-            {/* Action Buttons & Quick Badges */}
+            {/* Action Buttons */}
             <div className="pt-2 flex flex-col sm:flex-row items-stretch sm:items-center gap-3 sm:gap-4">
               <button
                 onClick={onRegisterClick}
                 className="group inline-flex items-center justify-center gap-3 bg-[#FF4D00] hover:bg-[#18181B] text-white px-7 sm:px-9 py-4 font-mono font-black text-xs uppercase tracking-wider transition-all border-2 border-[#18181B] shadow-[4px_4px_0px_#18181B] active:translate-x-1 active:translate-y-1 w-full sm:w-auto"
               >
-                <span>RSVP FOR DEC 12 HANGOUT</span>
+                <span>JOIN EMERGENCEX</span>
                 <ArrowRight className="w-4 h-4 group-hover:translate-x-1.5 transition-transform stroke-[2.5]" />
               </button>
 
-              <div className="flex items-center justify-center sm:justify-start gap-2 text-xs font-mono text-[#18181B] font-black py-1">
-                <span className="w-2.5 h-2.5 rounded-full bg-[#10B981] animate-ping" />
-                <span>ADO-EKITI • 100% FREE RSVP</span>
-              </div>
+              <a
+                href="#hangout"
+                className="inline-flex items-center justify-center gap-2 bg-white hover:bg-[#FEF9C3] text-[#18181B] px-6 py-4 font-mono font-black text-xs uppercase tracking-wider border-2 border-[#18181B] shadow-[3px_3px_0px_#18181B] transition-colors"
+              >
+                <span>SEE DEC 12 MEETUP ↓</span>
+              </a>
             </div>
 
             {/* Perks Tag */}
             <div className="pt-1 flex items-center gap-3 text-xs font-mono text-[#18181B]/70 font-bold">
               <PicassoPalettePatch color="#FF4D00" className="w-14 h-5 shrink-0" />
-              <span>Free entry • Official creator kit • Stage brand opportunity</span>
+              <span>4 Craft Labs • Business toolkits • Stage spotlight</span>
             </div>
           </div>
 
@@ -86,17 +89,17 @@ export const PicassoHero: React.FC<HeroProps> = ({ onRegisterClick }) => {
                 />
                 
                 {/* Pop Sticker Top-Left */}
-                <div className="absolute top-2.5 left-2.5 bg-[#FF4D00] text-white border-2 border-[#18181B] font-mono font-black text-[10px] px-2.5 py-1 uppercase tracking-wider shadow-[2px_2px_0px_#18181B] rotate-[-3deg]">
-                  ADO-EKITI 2K27
+                <div className="absolute top-2.5 left-2.5 bg-[#18181B] text-white border-2 border-[#18181B] font-mono font-black text-[10px] px-2.5 py-1 uppercase tracking-wider shadow-[2px_2px_0px_#18181B] rotate-[-3deg]">
+                  CREATIVE PLATFORM
                 </div>
 
                 {/* Pop Sticker Bottom */}
                 <div className="absolute bottom-2.5 left-2.5 right-2.5 bg-white border-2 border-[#18181B] p-2 text-center shadow-[3px_3px_0px_#18181B]">
                   <span className="font-syne font-extrabold text-xs text-[#18181B] uppercase block">
-                    EMERGENCE<span className="text-[#E02B20] text-[1.28em] font-black inline-block ml-0.5">X</span> 2K27
+                    EMERGENCE<span className="text-[#E02B20] text-[1.28em] font-black inline-block ml-0.5">X</span>
                   </span>
                   <span className="font-mono text-[9px] text-[#FF4D00] font-black uppercase">
-                    NEXT UP: DEC 12 HANGOUT
+                    ACCELERATOR FOR BUILDERS
                   </span>
                 </div>
               </div>
@@ -110,30 +113,30 @@ export const PicassoHero: React.FC<HeroProps> = ({ onRegisterClick }) => {
         <div className="border-[2.5px] border-[#18181B] p-5 bg-[#FEF9C3] shadow-[4px_4px_0px_#18181B] flex items-center justify-between hover:translate-y-[-2px] transition-transform">
           <div>
             <p className="font-syne font-black text-3xl text-[#18181B]">1,500+</p>
-            <p className="font-mono text-xs text-[#18181B] uppercase font-black mt-0.5">Creatives Coming</p>
+            <p className="font-mono text-xs text-[#18181B] uppercase font-black mt-0.5">Creatives in Ecosystem</p>
           </div>
           <span className="w-9 h-9 rounded-full bg-[#18181B] border-2 border-[#18181B] flex items-center justify-center text-[#FFE600] font-mono text-xs font-black shrink-0 shadow-[2px_2px_0px_#FF4D00]">
-            01
+            ★
           </span>
         </div>
 
         <div className="border-[2.5px] border-[#18181B] p-5 bg-[#EFF6FF] shadow-[4px_4px_0px_#18181B] flex items-center justify-between hover:translate-y-[-2px] transition-transform">
           <div>
-            <p className="font-syne font-black text-3xl text-[#18181B]">24</p>
-            <p className="font-mono text-xs text-[#18181B] uppercase font-black mt-0.5">Working Mentors</p>
+            <p className="font-syne font-black text-3xl text-[#2563EB]">4 Labs</p>
+            <p className="font-mono text-xs text-[#18181B] uppercase font-black mt-0.5">Design, Cinema, Audio, Code</p>
           </div>
           <span className="w-9 h-9 rounded-full bg-[#2563EB] border-2 border-[#18181B] flex items-center justify-center text-white font-mono text-xs font-black shrink-0 shadow-[2px_2px_0px_#18181B]">
-            02
+            4
           </span>
         </div>
 
         <div className="border-[2.5px] border-[#18181B] p-5 bg-[#FFF1F2] shadow-[4px_4px_0px_#18181B] flex items-center justify-between hover:translate-y-[-2px] transition-transform">
           <div>
-            <p className="font-syne font-black text-2xl lg:text-3xl text-[#FF4D00] tracking-tight">STAGE TIME</p>
+            <p className="font-syne font-black text-2xl lg:text-3xl text-[#FF4D00] tracking-tight">SPOTLIGHT</p>
             <p className="font-mono text-xs text-[#18181B] uppercase font-black mt-0.5">Showcase Your Brand</p>
           </div>
           <span className="w-9 h-9 rounded-full bg-[#FF4D00] border-2 border-[#18181B] flex items-center justify-center text-white font-mono text-xs font-black shrink-0 shadow-[2px_2px_0px_#18181B]">
-            03
+            ★
           </span>
         </div>
       </div>

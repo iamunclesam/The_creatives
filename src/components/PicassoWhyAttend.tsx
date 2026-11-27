@@ -10,49 +10,49 @@ export const PicassoWhyAttend: React.FC<WhyAttendProps> = ({ onRegisterClick }) 
     {
       num: "01",
       badgeColor: "bg-[#FF4D00] text-white",
-      title: "Honest Portfolio Roasts",
-      desc: "No polite fake compliments. Top directors review your work live and tell you exactly what's stopping you from charging premium rates.",
+      title: "Portfolio Teardowns",
+      desc: "No polite compliments. Direct feedback on why clients pass on your work.",
       tag: "FIX YOUR BOOK",
       icon: Eye
     },
     {
       num: "02",
       badgeColor: "bg-[#2563EB] text-white",
-      title: "Actual Pricing Breakdowns",
-      desc: "See real invoices from creators making $1,000 to $5,000+ monthly from Nigeria. Learn contract clauses and upfront deposit tactics.",
+      title: "USD Pricing Blueprint",
+      desc: "Real invoices, deposit strategies, and foreign currency contracts.",
       tag: "STOP UNDERCHARGING",
       icon: DollarSign
     },
     {
       num: "03",
       badgeColor: "bg-[#FFE600] text-[#18181B]",
-      title: "Main Stage Brand Spotlight",
-      desc: "Have a design studio, fashion capsule, agency, or creative app? You get the microphone to tell 1,500+ attendees and prospective clients what you do.",
-      tag: "TELL YOUR STORY",
+      title: "Stage Spotlight",
+      desc: "Take the microphone to introduce your creative brand to 1,500+ attendees.",
+      tag: "SHOWCASE WORK",
       icon: Trophy
     },
     {
       num: "04",
       badgeColor: "bg-[#10B981] text-white",
-      title: "Stop Creating in Isolation",
-      desc: "Meet 1,500+ ambitious videographers, graphic designers, audio engineers, and developers who can become your co-founders and team.",
-      tag: "FIND COLLABORATORS",
+      title: "The Network",
+      desc: "Connect with ambitious videographers, designers, coders, and producers.",
+      tag: "COLLABORATORS",
       icon: Users
     },
     {
       num: "05",
       badgeColor: "bg-[#18181B] text-white",
-      title: "The Modern Tech Stack",
-      desc: "Discover the exact AI plugins, design templates, and lighting gear that allow lean 1-person studios to deliver agency-grade work.",
+      title: "The Modern Stack",
+      desc: "The exact AI tools and workflow setups lean studios use to ship 5x faster.",
       tag: "FASTER EXECUTION",
       icon: Zap
     },
     {
       num: "06",
       badgeColor: "bg-[#FF4D00] text-white",
-      title: "Creator Kit & Templates",
-      desc: "Take home ready-to-use client contract templates, pricing calculators, invoice scripts, and official EmergenceX merch.",
-      tag: "TAKE-HOME VALUE",
+      title: "Creator Toolkit",
+      desc: "Ready-to-use client contracts, pricing calculators, and invoice scripts.",
+      tag: "TOOLKITS",
       icon: Coffee
     }
   ];
@@ -64,11 +64,11 @@ export const PicassoWhyAttend: React.FC<WhyAttendProps> = ({ onRegisterClick }) 
         <div className="flex items-center gap-3">
           <span className="w-4 h-4 bg-[#FFE600] border-2 border-[#18181B] rotate-45" />
           <h2 className="font-syne font-black text-2xl sm:text-3xl uppercase tracking-tight text-[#18181B]">
-            WHAT YOU GET BY ATTENDING
+            WHAT EMERGENCEX DELIVERS
           </h2>
         </div>
-        <span className="px-3 py-1 bg-[#FF4D00] text-white font-mono text-xs font-black uppercase tracking-wider self-start sm:self-auto shadow-[2px_2px_0px_#18181B]">
-          6 REASONS TO COME
+        <span className="px-3 py-1 bg-[#10B981] text-white font-mono text-xs font-black uppercase tracking-wider self-start sm:self-auto shadow-[2px_2px_0px_#18181B]">
+          VALUE STACK
         </span>
       </div>
 

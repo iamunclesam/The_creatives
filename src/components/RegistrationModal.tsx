@@ -69,10 +69,10 @@ export const RegistrationModal: React.FC<RegistrationModalProps> = ({
                 <span>OFFICIAL SUMMIT ACCREDITATION</span>
               </div>
               <h3 className="font-display font-black text-2xl sm:text-3xl text-white">
-                Reserve Your Spot
+                Get Your Pass
               </h3>
               <p className="text-xs sm:text-sm text-[#94949E]">
-                RSVP for the <strong>Dec 12th Tech Workshop Hangout</strong> or reserve your <strong>Emergence<span className="text-[#E02B20] text-[1.2em] font-black inline-block">X</span> 2K27</strong> pass in Ado-Ekiti.
+                RSVP for the upcoming <strong>Dec 12th Tech Workshop</strong> or claim your <strong>Emergence<span className="text-[#E02B20] text-[1.2em] font-black inline-block">X</span></strong> pass.
               </p>
             </div>
 

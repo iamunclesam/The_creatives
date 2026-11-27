@@ -8,9 +8,9 @@ export const PicassoWorkspaces: React.FC = () => {
       badgeColor: "bg-[#FF4D00] text-white",
       borderColor: "border-[#FF4D00]",
       title: "Graphic Design & Branding",
-      lead: "Stop designing ₦5k logos. Learn brand systems international startups pay thousands of dollars for.",
+      lead: "Stop making ₦5k logos. Learn brand systems companies pay thousands of dollars for.",
       image: "https://images.unsplash.com/photo-1581291518857-4e27b48ff24e?auto=format&fit=crop&w=800&q=80",
-      skills: ["Brand Systems", "Font & Color Mastery", "Pricing in USD"]
+      skills: ["Brand Systems", "Font & Color", "USD Rate Cards"]
     },
     {
       num: "02",
@@ -18,9 +18,9 @@ export const PicassoWorkspaces: React.FC = () => {
       badgeColor: "bg-[#2563EB] text-white",
       borderColor: "border-[#2563EB]",
       title: "Video Making & Cinema",
-      lead: "You don't need an expensive camera. Shoot cinema, music videos, and viral ads on gear you already have.",
+      lead: "You don't need expensive gear. Shoot cinema and viral commercials on what you have.",
       image: "https://images.unsplash.com/photo-1485846234645-a62644f84728?auto=format&fit=crop&w=800&q=80",
-      skills: ["Lighting on a Budget", "Cinematic Color Grade", "Directing Talent"]
+      skills: ["Lighting on a Budget", "Color Grade", "Directing"]
     },
     {
       num: "03",
@@ -28,9 +28,9 @@ export const PicassoWorkspaces: React.FC = () => {
       badgeColor: "bg-[#FFE600] text-[#18181B]",
       borderColor: "border-[#FFE600]",
       title: "Music & Beat Production",
-      lead: "Stop sending beats that sit unplayed. Learn pro Afrobeats mixing, sync licensing, and getting streaming royalties.",
+      lead: "Stop sending unplayed beats. Master pro Afrobeats mixing and streaming royalties.",
       image: "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&w=600&q=80",
-      skills: ["Afrobeats Mixing", "Game & Film Placement", "Collecting Royalties"]
+      skills: ["Afrobeats Mixing", "Sync Licensing", "Royalties"]
     },
     {
       num: "04",
@@ -38,9 +38,9 @@ export const PicassoWorkspaces: React.FC = () => {
       badgeColor: "bg-[#10B981] text-white",
       borderColor: "border-[#10B981]",
       title: "Web Design & Dev",
-      lead: "Build high-speed, interactive websites that growing businesses eagerly pay 6-to-7 figures for.",
+      lead: "Build high-speed, interactive websites that growing businesses pay top dollar for.",
       image: "https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=600&q=80",
-      skills: ["Responsive Design", "Smooth Animations", "Remote Dev Gigs"]
+      skills: ["Responsive UI", "Animations", "Remote Dev Gigs"]
     }
   ];
 
@@ -51,11 +51,11 @@ export const PicassoWorkspaces: React.FC = () => {
         <div className="flex items-center gap-3">
           <span className="w-4 h-4 bg-[#2563EB] border-2 border-[#18181B] rotate-12" />
           <h2 className="font-syne font-black text-2xl sm:text-3xl uppercase tracking-tight text-[#18181B]">
-            THE 4 WORKSHOPS
+            THE 4 CRAFT LABS
           </h2>
         </div>
         <span className="px-3 py-1 bg-[#18181B] text-white font-mono text-xs font-black uppercase tracking-wider self-start sm:self-auto shadow-[2px_2px_0px_#FFE600]">
-          HANDS-ON • BRING YOUR LAPTOP
+          PRACTICAL SKILLS
         </span>
       </div>
 

@@ -47,21 +47,21 @@ export const PicassoNavbar: React.FC<NavbarProps> = ({ onRegisterClick, onPartne
                   EMERGENCE<span className="text-[#E02B20] text-[1.28em] font-black inline-block ml-0.5">X</span>
                 </span>
                 <span className="text-[10px] font-mono tracking-wider text-[#FF4D00] uppercase font-bold">
-                  ADO-EKITI 2K27
+                  CREATIVE PLATFORM
                 </span>
               </div>
             </a>
 
             {/* Clean Gallery Navigation with plain headings */}
             <nav className="hidden md:flex items-center gap-7 text-xs font-mono uppercase tracking-wider text-[#18181B] font-extrabold">
+              <a href="#struggle" className="hover:text-[#FF4D00] transition-colors">What We Fix</a>
+              <a href="#workshops" className="hover:text-[#FF4D00] transition-colors">Craft Labs</a>
+              <a href="#benefits" className="hover:text-[#FF4D00] transition-colors">The Stack</a>
+              <a href="#mentors" className="hover:text-[#FF4D00] transition-colors">Mentors</a>
               <a href="#hangout" className="text-[#FF4D00] hover:text-[#18181B] transition-colors flex items-center gap-1.5 font-black">
-                <span className="w-2 h-2 rounded-full bg-[#FF4D00] animate-ping" />
+                <span className="w-2 h-2 rounded-full bg-[#E02B20] animate-ping" />
                 <span>Dec 12 Meetup</span>
               </a>
-              <a href="#struggle" className="hover:text-[#FF4D00] transition-colors">Why attend</a>
-              <a href="#workshops" className="hover:text-[#FF4D00] transition-colors">Workshops</a>
-              <a href="#benefits" className="hover:text-[#FF4D00] transition-colors">What you get</a>
-              <a href="#mentors" className="hover:text-[#FF4D00] transition-colors">Mentors</a>
               <button
                 onClick={onPartnerClick}
                 className="hover:text-[#FF4D00] transition-colors"
@@ -72,17 +72,11 @@ export const PicassoNavbar: React.FC<NavbarProps> = ({ onRegisterClick, onPartne
 
             {/* Right Action Button */}
             <div className="hidden sm:flex items-center gap-3">
-              <a
-                href="#hangout"
-                className="px-2.5 py-1 bg-[#FFE600] text-[#18181B] border-2 border-[#18181B] font-mono font-black text-[10px] uppercase shadow-[2px_2px_0px_#18181B] rotate-[-1deg]"
-              >
-                DEC 12 MEETUP
-              </a>
               <button
                 onClick={onRegisterClick}
                 className="bg-[#FF4D00] hover:bg-[#18181B] text-white px-5 py-2.5 font-mono font-black text-xs uppercase tracking-wider transition-all border-2 border-[#18181B] shadow-[3px_3px_0px_#18181B] hover:translate-x-0.5 hover:translate-y-0.5 active:translate-x-1 active:translate-y-1 flex items-center gap-1.5"
               >
-                <span>RESERVE SPOT</span>
+                <span>JOIN EMERGENCEX</span>
                 <ArrowUpRight className="w-4 h-4 stroke-[2.5]" />
               </button>
             </div>
@@ -112,7 +106,7 @@ export const PicassoNavbar: React.FC<NavbarProps> = ({ onRegisterClick, onPartne
                 ★ DEC 12 TECH MEETUP
               </span>
               <span className="text-[10px] font-mono font-black bg-[#FF4D00] text-white px-2 py-0.5 border border-[#18181B]">
-                LIMITED SEATS
+                UPCOMING
               </span>
             </a>
 
@@ -121,28 +115,28 @@ export const PicassoNavbar: React.FC<NavbarProps> = ({ onRegisterClick, onPartne
               onClick={() => setMobileMenuOpen(false)}
               className="block font-syne font-black text-2xl text-[#18181B] hover:text-[#FF4D00] py-2 border-b border-[#18181B]/15"
             >
-              01 // WHY ATTEND
+              01 // WHAT WE FIX
             </a>
             <a
               href="#workshops"
               onClick={() => setMobileMenuOpen(false)}
               className="block font-syne font-black text-2xl text-[#18181B] hover:text-[#FF4D00] py-2 border-b border-[#18181B]/15"
             >
-              02 // THE WORKSHOPS
+              02 // CRAFT LABS
             </a>
             <a
               href="#benefits"
               onClick={() => setMobileMenuOpen(false)}
               className="block font-syne font-black text-2xl text-[#18181B] hover:text-[#FF4D00] py-2 border-b border-[#18181B]/15"
             >
-              03 // WHAT YOU GET
+              03 // THE STACK
             </a>
             <a
               href="#mentors"
               onClick={() => setMobileMenuOpen(false)}
               className="block font-syne font-black text-2xl text-[#18181B] hover:text-[#FF4D00] py-2 border-b border-[#18181B]/15"
             >
-              04 // MENTORS
+              04 // PRACTITIONERS
             </a>
 
             {/* Brand Opportunity Card */}

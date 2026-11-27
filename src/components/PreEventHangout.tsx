@@ -19,39 +19,39 @@ export const PreEventHangout: React.FC<PreEventProps> = ({ onRegisterClick }) =>
           <div className="lg:col-span-7 space-y-4">
             <div className="flex flex-wrap items-center gap-2">
               <span className="px-3 py-1 bg-[#FF4D00] text-white border-2 border-[#18181B] font-mono font-black text-xs uppercase tracking-wider shadow-[2px_2px_0px_#18181B] rotate-[-1deg]">
-                ★ FRIDAY, DECEMBER 12TH
+                ★ UPCOMING EDITION
               </span>
               <span className="px-3 py-1 bg-white text-[#18181B] border-2 border-[#18181B] font-mono font-black text-xs uppercase tracking-wider shadow-[2px_2px_0px_#18181B]">
-                ROAD TO 2K27
+                DECEMBER 12TH
               </span>
             </div>
 
             <h2 className="font-syne font-black text-2xl sm:text-4xl lg:text-[2.6rem] text-[#18181B] uppercase leading-tight">
-              DEC 12: TECH WORKSHOP & MEETUP.
+              DEC 12: TECH WORKSHOP.
             </h2>
 
             <p className="font-sans text-sm sm:text-base text-[#18181B]/85 leading-relaxed font-medium max-w-xl">
-              A practical meetup in Ado-Ekiti before the main 2K27 summit. Bring your laptop, work on live design and code with experienced mentors, get your portfolio reviewed, and connect with people who actually build things.
+              An intimate hands-on workshop in Ado-Ekiti. 80 seats. Bring your laptop for live building, design teardowns, and 1-on-1 portfolio feedback before the main 2K27 summit.
             </p>
 
             {/* Quick Feature Pills */}
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 pt-2">
               <div className="bg-white border-2 border-[#18181B] p-3 shadow-[2px_2px_0px_#18181B]">
                 <Laptop className="w-4 h-4 text-[#FF4D00] mb-1 stroke-[2.5]" />
-                <p className="font-syne font-black text-xs uppercase text-[#18181B]">Live Code & Design</p>
-                <p className="font-sans text-[11px] text-[#18181B]/70">Screen-sharing real client projects</p>
+                <p className="font-syne font-black text-xs uppercase text-[#18181B]">Live Builds</p>
+                <p className="font-sans text-[11px] text-[#18181B]/70">Screen-sharing client projects</p>
               </div>
 
               <div className="bg-white border-2 border-[#18181B] p-3 shadow-[2px_2px_0px_#18181B]">
                 <Users className="w-4 h-4 text-[#2563EB] mb-1 stroke-[2.5]" />
                 <p className="font-syne font-black text-xs uppercase text-[#18181B]">Portfolio Review</p>
-                <p className="font-sans text-[11px] text-[#18181B]/70">Direct feedback on what to improve</p>
+                <p className="font-sans text-[11px] text-[#18181B]/70">Direct feedback on your book</p>
               </div>
 
               <div className="bg-white border-2 border-[#18181B] p-3 shadow-[2px_2px_0px_#18181B]">
                 <Sparkles className="w-4 h-4 text-[#10B981] mb-1 stroke-[2.5]" />
-                <p className="font-syne font-black text-xs uppercase text-[#18181B]">Good Connections</p>
-                <p className="font-sans text-[11px] text-[#18181B]/70">Meet designers, coders & editors</p>
+                <p className="font-syne font-black text-xs uppercase text-[#18181B]">The Network</p>
+                <p className="font-sans text-[11px] text-[#18181B]/70">Connect with active builders</p>
               </div>
             </div>
           </div>
@@ -79,11 +79,11 @@ export const PreEventHangout: React.FC<PreEventProps> = ({ onRegisterClick }) =>
                 onClick={onRegisterClick}
                 className="w-full bg-[#FF4D00] hover:bg-[#18181B] text-white py-4 font-mono font-black text-xs uppercase tracking-wider border-2 border-[#18181B] shadow-[4px_4px_0px_#18181B] transition-all flex items-center justify-center gap-2 active:translate-x-0.5 active:translate-y-0.5"
               >
-                <span>RSVP FOR DEC 12 HANGOUT</span>
+                <span>RSVP FOR DEC 12</span>
                 <ArrowRight className="w-4 h-4 stroke-[2.5]" />
               </button>
               <p className="text-[10px] font-mono text-[#18181B]/60 font-bold mt-2">
-                100% Free • Early Access to 2K27 Main Passes
+                100% Free • Limited to 80 Seats
               </p>
             </div>
           </div>

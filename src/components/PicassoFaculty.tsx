@@ -8,7 +8,7 @@ export const PicassoFaculty: React.FC = () => {
       name: "Toluwani Adeyemi",
       role: "Design Director",
       company: "Studio Ochre & Form",
-      teach: "Teaches you how to package African visual identity to land $2k+ remote branding contracts.",
+      teach: "How to package visual identities and close $2k+ remote branding contracts.",
       image: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=800&q=80",
     },
     {
@@ -17,7 +17,7 @@ export const PicassoFaculty: React.FC = () => {
       name: "Chukwudi Nnamdi",
       role: "Creative Tech Lead",
       company: "Kinetix Africa Labs",
-      teach: "Shows you how to code smooth animated websites that high-growth startups pay 7 figures for.",
+      teach: "How to code smooth, interactive web products that startups pay top rates for.",
       image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=800&q=80",
     },
     {
@@ -26,7 +26,7 @@ export const PicassoFaculty: React.FC = () => {
       name: "Eniola Fayemi",
       role: "Film Director",
       company: "Ekiti Cinema Collective",
-      teach: "Breaks down low-budget cinematography, pro lighting setups, and directing viral music videos.",
+      teach: "Low-budget cinema workflows, pro lighting rigs, and viral commercial directing.",
       image: "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?auto=format&fit=crop&w=800&q=80",
     },
     {
@@ -35,7 +35,7 @@ export const PicassoFaculty: React.FC = () => {
       name: "Babatunde Alabi",
       role: "Brand & Venture Strategist",
       company: "EmergenceX Ecosystem",
-      teach: "Shows you how to package your creative studio, position your brand, and tell your story effectively on stage.",
+      teach: "How to position your creative studio and tell your story effectively on stage.",
       image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=800&q=80",
     }
   ];
@@ -47,7 +47,7 @@ export const PicassoFaculty: React.FC = () => {
         <div className="flex items-center gap-3">
           <span className="w-4 h-4 bg-[#FF4D00] border-2 border-[#18181B] rotate-12" />
           <h2 className="font-syne font-black text-2xl sm:text-3xl uppercase tracking-tight text-[#18181B]">
-            PEOPLE LEADING THE WORKSHOPS
+            THE PRACTITIONERS
           </h2>
         </div>
         <span className="px-3 py-1 bg-[#2563EB] text-white font-mono text-xs font-black uppercase tracking-wider self-start sm:self-auto shadow-[2px_2px_0px_#18181B]">

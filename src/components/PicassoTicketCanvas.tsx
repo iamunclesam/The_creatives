@@ -30,11 +30,11 @@ export const PicassoTicketCanvas: React.FC<TicketProps> = ({ onRegisterClick }) 
             </div>
 
             <h3 className="font-syne font-extrabold text-2xl xs:text-3xl sm:text-4xl lg:text-5xl uppercase tracking-tight text-[#18181B] leading-tight break-words">
-              EMERGENCE<span className="text-[#E02B20] text-[1.25em] font-black inline-block ml-0.5">X</span> 2K27
+              GET YOUR EMERGENCE<span className="text-[#E02B20] text-[1.25em] font-black inline-block ml-0.5">X</span> PASS
             </h3>
 
             <p className="font-sans text-sm sm:text-base text-[#18181B]/85 max-w-xl leading-relaxed font-medium">
-              One full pass unlocks everything: entry to the <strong>Dec 12th Tech Hangout</strong>, priority access to the <strong>2K27 Main Summit</strong>, portfolio reviews, creator toolkits, and brand spotlight stage access.
+              One full pass unlocks everything: entry to the upcoming <strong>Dec 12th Tech Workshop</strong>, priority access to the <strong>2K27 Main Summit</strong>, and official creator toolkits.
             </p>
 
             <div className="grid grid-cols-2 sm:grid-cols-3 gap-4 pt-3 font-mono text-xs border-t-2 border-[#18181B]/20">
@@ -71,7 +71,7 @@ export const PicassoTicketCanvas: React.FC<TicketProps> = ({ onRegisterClick }) 
               onClick={onRegisterClick}
               className="w-full bg-[#FF4D00] hover:bg-[#18181B] text-white py-4 font-mono font-black text-xs uppercase tracking-widest transition-all border-2 border-[#18181B] shadow-[4px_4px_0px_#18181B] flex items-center justify-center gap-2 active:translate-x-0.5 active:translate-y-0.5"
             >
-              <span>CLAIM FREE PASS (RSVP)</span>
+              <span>CLAIM YOUR PASS</span>
               <ArrowRight className="w-4 h-4 stroke-[2.5]" />
             </button>
 
